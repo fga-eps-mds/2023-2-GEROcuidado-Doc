@@ -13,15 +13,12 @@ O GEROcuidado se propõe a ser um
 gerenciador de registro da rotina de
 cuidados, por meio de orientações de
 saúde e rede de apoio entre os cuidadores
-de idosos. O Capital Social, atualmente,
-também se encontra em implementação,
-com o objetivo de oferecer educação
-financeira e empreendedora para
-comunidades vulnerabilizadas do DF. Por
-fim, o Reciclo, em fase de impacto, tem
-como alvo as cooperativas de reciclagem,
-com a finalidade de impulsionar as vendas,
-marketing e suas parcerias.
+de idosos. O Projeto foi criado
+a partir do edital Prêmio Inspirando
+Cuidado 2022, com o objetivo de
+incentivar e prestar auxílio a projetos
+trabalhando com a ODS 3 (Saúde e
+Bem-estar).
 
 ## Enactus
 <img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/1f6a7d6f-e8e1-42aa-b70e-819359a6114e" title="Divisor" style="max-height:60px; width:auto; display:block;">
