@@ -1,6 +1,18 @@
 # Sobre o GEROcuidado
 
+<div align="center">
+<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/4b84750a-b35a-4325-8945-65d345af2441" alt="logo" width="300" height="100" > </div>
 
+O GEROcuidado se propõe a ser um
+gerenciador de registro da rotina de
+cuidados, por meio de orientações de
+saúde e rede de apoio entre os cuidadores
+de idosos. O Projeto foi criado
+a partir do edital Prêmio Inspirando
+Cuidado 2022, com o objetivo de
+incentivar e prestar auxílio a projetos
+trabalhando com a ODS 3 (Saúde e
+Bem-estar).
 
 ## Equipe
 
