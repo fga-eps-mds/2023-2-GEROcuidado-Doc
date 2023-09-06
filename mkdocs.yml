@@ -50,6 +50,8 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Projeto: 
+    - Plano de Contribuição: projeto/plano_de_contribuicao.md
 
 plugins:
   - search
