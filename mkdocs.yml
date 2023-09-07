@@ -54,6 +54,8 @@ nav:
     - Plano de Contribuição: projeto/plano_de_contribuicao.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
+    - Plano de Comunicação: projeto/plano_de_comunicacao.md
+
 
 plugins:
   - search
