@@ -52,6 +52,7 @@ nav:
   - Home: index.md
   - Projeto: 
     - Plano de Contribuição: projeto/plano_de_contribuicao.md
+    - Plano de Comunicação: projeto/plano_de_comunicacao.md
 
 plugins:
   - search
