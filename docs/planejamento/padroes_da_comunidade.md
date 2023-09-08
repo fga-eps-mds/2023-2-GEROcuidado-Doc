@@ -13,6 +13,7 @@ na visão de desenvolvimento.
 - **Issue templates:** apresenta os padrões de montagem das [issues](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/.github/ISSUE_TEMPLATE/template-das-issues.md)
 - **Pull request template:** apresenta o padrão de preenchimento de um [pull request](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/.github/template-dos-pull-requests.md) ou *merge request*.
 - **Bug reports:** apresenta o padrão de documento de [bug report](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/.github/ISSUE_TEMPLATE/template-de-bug-report.md)
+- **Labels:** As labels são ferramentas de organização e categorização usadas em repositórios para ajudar a gerenciar tarefas, problemas (issues), pull requests (solicitações de pull) e outras atividades relacionadas ao desenvolvimento de software. Elas são pequenos rótulos coloridos que podem ser atribuídos a itens específicos em um repositório para fornecer informações adicionais sobre o status, prioridade, tipo ou qualquer outra característica relevante do item. Além disso elas servem para agrupar essas diferentes tarefas em grupos, o que facilita a pesquisa de alguma tarefa por meio de uma label.
 
 | Versão | Data       | Descrição | Autores |
 | ------ | ---------- | --------- | ------- |
