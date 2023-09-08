@@ -82,6 +82,6 @@ SOFIA, Bianca; OLIVEIRA, Lorrany. Metodologias do grupo AMIS. Disponível em: ht
 
 ## Histórico de versões
 
-| Data       | Versão | Descrição                                              | Autor(es)                                           |
-| ---------- | ------ | ------------------------------------------------------ | --------------------------------------------------- |
-| 17/04/2023 | 1.0    | Criação de documento e adição das metodologias  | Pedro Cella |
+| Versão | Data       | Descrição | Autores |
+| ------ | ---------- | --------- | ------- |
+| 1.0    | 07/09/2023 | Abertura do documento | Pedro Cella |
