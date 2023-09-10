@@ -15,7 +15,7 @@
  semanas e são chamados de sprints (CRUZ, 2013). O scrum prevê alguns ritos (cerimônias) e artefatos.
 </p>
 
-<p align="justify">Durante o projeto Amis, os artefatos usados são: backlog do produto (<i>product backlog</i>) e sprints. Os ritos usados são: planejamento da sprint (<i>planing</i>), <i>daily</i> e <i>review</i>. </p>
+<p align="justify">Durante o projeto GEROcuidado, os artefatos usados são: backlog do produto (<i>product backlog</i>) e sprints. Os ritos usados são: planejamento da sprint (<i>planing</i>), <i>daily</i> e <i>review</i>. </p>
 
 ### <i>Product Backlog</i>
 <p align="justify">O <i>Product Backlog</i> é uma lista de tarefas priorizadas que incluem todas as atividades necessárias para concluir um projeto, incluindo requisitos funcionais que agregam valor ao negócio (PEREIRA, 2007). Ou seja, é um conjunto de funcionalidades e requisitos que deverão ser entregues. </p>
