@@ -16,7 +16,7 @@ Se uma issue _feature_ precisar de mais de um pull request ou se o prazo de conc
 
 ## Pull Requests
 
-Os pull requests devem estar obrigatoriamente vinculados a uma issue, e os passos obrigatórios presentes no [template](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/.github/template-dos-pull-requests).
+Os pull requests devem estar obrigatoriamente vinculados a uma issue, e os passos obrigatórios presentes no [template](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/.github/template-dos-pull-requests.md).
 
 ---
 
