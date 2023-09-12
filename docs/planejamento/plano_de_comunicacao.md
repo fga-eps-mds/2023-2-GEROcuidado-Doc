@@ -18,7 +18,7 @@ Ao longo do semestre, o grupo terá inúmeras reuniões para desenvolver o proje
 
 ## Reuniões pré agendadas
 
-- Reunião com o cliente: quarta-feira às 18h00
+- Reunião com o cliente: quarta-feira às 12h00
 
 
 ## Quadro de Disponibilidade
@@ -61,7 +61,7 @@ Durante a planning ocorre o plano de ação para as tarefas que foram transborda
 
 ### Reunião com o PO
 
-A reunião ocorre semanalmente às quartas-feiras com início às 12h e duração média de 1 hora sem intervalos. Participam da reunião: toda a equipe de desenvolvimento, o PO - Prof. Mário Andrade e os membros do Enactus - e o Prof. Hilmer.
+A reunião ocorre semanalmente às quartas-feiras com início às 12h e duração média de 1 hora sem intervalos. Participam da reunião: toda a equipe de desenvolvimento, o Prof. Hilmer Neri e o PO - Prof. Mário Andrade e os membros do Enactus, compostos pelos integrantes, Larissa Ganoza, Nagyla Almeida, Henrique Monteiro, Ade Nidji Jacques, Pedro Leite, Livya Bembem e Maria Beatriz.
 
 A reunião tem como pontapé inicial as pautas feitas pelo PO, mais para frente a definição das pautas será gerido pelos membros de EPS que deverão encaminhar a pauta da reunião indicando os assuntos e o membro ou membros responsáveis pela apresentação da pauta.
 
