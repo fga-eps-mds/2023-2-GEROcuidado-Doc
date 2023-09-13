@@ -15,18 +15,18 @@ Dentro de cada pasta da semana, armazenaremos os arquivos de reunião.
 
 ## Nomes de Arquivos
 
-Os arquivos de reunião seguirão o formato `reuniao_data_da_reuniao.md`, onde a data será representada pelo dia e mês da reunião, sucessivamente, no formato `DD_MM`.
+Os arquivos de reunião seguirão o formato `reuniao__tipo_data_da_reuniao.md`, onde o tipo deve ser indicado com a primeira letra maiúscula entre as categorias geral, PO, treinamento, ou outros, exemplo pareamento, bugfix, etc. Já a data será representada pelo dia e mês da reunião, sucessivamente, no formato `DD_MM`.
 
-Por exemplo, para uma reunião realizada em 15 de setembro, o nome do arquivo seria `reuniao_15_09.md`.
+Por exemplo, para uma reunião geral realizada em 15 de setembro, o nome do arquivo seria `reuniao_Geral_15_09.md`.
 
 ## Exemplo de Estrutura de Pastas e Nomes de Arquivos
 
-Suponhamos que estamos na semana 3 e tivemos uma reunião em 15 de setembro. A estrutura de pastas e nomes de arquivos ficaria assim:
+Suponhamos que estamos na semana 3 e tivemos uma reunião geral no dia 15 de setembro. A estrutura de pastas e nomes de arquivos ficaria assim:
 
 - `Semana_1`
 - `Semana_2`
 - `Semana_3`
-  - `reuniao_15_09.md`
+  - `reuniao_Geral_15_09.md`
 
 Esta padronização ajuda a organizar nossos documentos de reunião de maneira clara e eficiente, tornando mais fácil localizar e referenciar informações específicas de cada encontro.
 
