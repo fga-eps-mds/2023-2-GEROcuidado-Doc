@@ -23,7 +23,7 @@
    - https://www.canva.com/design/DAFuDZM85Qk/05rx6saTZJsaEIlEX4aEwg/edit?utm_content=DAFuDZM85Qk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 5. Definição do cronograma do Lean Inception;
 
-| <b>Presentes na Reunião (04/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
+| <b>Presentes na Reunião (12/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | --- | --- | --- |
 | Arthur Talles de Sousa Cunha | EPS | Presente |
 | Eduardo Gurgel Pereira de Carvalho | EPS | Presente |
