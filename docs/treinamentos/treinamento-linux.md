@@ -1,5 +1,15 @@
 # Guia de Linux para Iniciantes
 
+## Instrutores
+- Eduardo
+- Gustavo
+
+## Data e local
+- Dia do treinamento: sexta-feira(15/09) 12-14h
+</br>
+- Local: FGA
+
+
 ## Tópicos de Estudo
 
 ### Instalação do Linux e particionamento de disco
