@@ -50,6 +50,9 @@ nav:
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
+  - Treinamentos:
+    - Treinamento de Linux: treinamentos/treinamento-linux.md
+    - Treinamento de Git: treinamentos/treinamento-git.md
     
 
 
