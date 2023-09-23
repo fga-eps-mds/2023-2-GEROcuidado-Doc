@@ -51,10 +51,9 @@ nav:
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
   - Treinamentos:
-    - Treinamento de Linux: treinamentos/treinamento-linux.md
-    - Treinamento de Git: treinamentos/treinamento-git.md
-    
-
+    - Treinamento de Linux: treinamentos/treinamento_linux.md
+    - Treinamento de Git: treinamentos/treinamento_git.md
+    - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
 
 plugins:
   - search
