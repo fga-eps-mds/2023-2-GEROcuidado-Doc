@@ -19,9 +19,9 @@
 | <b>Presentes na Reunião (23/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | --- | --- | --- |
 | Arthur Talles de Sousa Cunha | EPS | Presente |
-| Eduardo Gurgel Pereira de Carvalho | EPS | Presente |
+| Eduardo Gurgel Pereira de Carvalho | EPS | Ausente |
 | Gustavo Afonso Pires Severo | EPS | Presente |
-| Henrique Amorim Costa Melo | EPS | Ausente |
+| Henrique Amorim Costa Melo | EPS | Presente |
 | Pedro Vítor de Salles Cella | EPS | Presente |
 | Gabryel Nícolas Soares de Sousa | MDS | Presente |
 | Guilherme Silva Dutra | MDS | Presente |
