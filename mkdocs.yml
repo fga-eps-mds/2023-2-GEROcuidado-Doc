@@ -56,6 +56,11 @@ nav:
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md 
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
 
 plugins:
   - search
