@@ -2,28 +2,28 @@
 
 ## Pauta
 ### EPS
-1. Definição dos Treinamentos;
+* Definição dos Treinamentos;
    - Eduardo e Gustavo - Treinamento de Linux;
    - Henrique - Treinamento de Git;
    - Arthur e Pedro - Treinamento de Metodologias Ágeis;
-2. Levantamento da documentação inicial do projeto;
-3. Possíveis questões para levantar na reunião do cliente;
+*  Levantamento da documentação inicial do projeto;
+*  Possíveis questões para levantar na reunião do cliente;
 
 ### Geral
-1. Definição da tecnologia;
+* Definição da tecnologia;
    - Cross-plataform com React Native a talvez Firebase;
    - PWA com Angular;
-2. Definição do dia e horários dos treinamentos;
+* Definição do dia e horários dos treinamentos;
    - Treinamento de linux - sexta-feira(15/09) 12-14h
    - Treinamento de Git - terça-feira(19/09) 12h:30 
    - Treinamento de Metodologias Ágeis - sábado (23/09) 14h
-3. Pauta para os POs;
+* Pauta para os POs;
    - https://docs.google.com/document/d/1B5oy0kjTO7WoHb2z4g_SV_tqMGfXwhFkzBTUN0za6PM/edit?usp=drive_link
-4. Apresentação do Lean Inception;
+* Apresentação do Lean Inception;
    - https://www.canva.com/design/DAFuDZM85Qk/05rx6saTZJsaEIlEX4aEwg/edit?utm_content=DAFuDZM85Qk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 5. Definição do cronograma do Lean Inception;
 
-| <b>Presentes na Reunião (04/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
+| <b>Presentes na Reunião (12/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | --- | --- | --- |
 | Arthur Talles de Sousa Cunha | EPS | Presente |
 | Eduardo Gurgel Pereira de Carvalho | EPS | Presente |
