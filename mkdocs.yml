@@ -45,11 +45,17 @@ nav:
   - Home: index.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
+    - Quadro de conhecimento: planejamento/quadro_conhecimento.md
     - Plano de contribuição: planejamento/plano_de_contribuicao.md  
     - Plano de comunicação: planejamento/plano_de_comunicacao.md
+    - Plano de custos: planejamento/plano_de_custos.md
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
+  - Treinamentos:
+    - Treinamento de Linux: treinamentos/treinamento_linux.md
+    - Treinamento de Git: treinamentos/treinamento_git.md
+    - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
   - Reuniões:
     - Semana 1:
       - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
@@ -66,7 +72,6 @@ nav:
     - Semana 4:
       - Reunião Geral 26/09: reunioes/Semana_4/reuniao_Geral_26_09.md
       - Reunião PO 27/09: reunioes/Semana_4/reuniao_PO_27_09.md
-
 
 plugins:
   - search
