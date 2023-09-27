@@ -40,5 +40,6 @@
 |Maria Beatriz|Enactus|Presente|
 |Pedro Leite|Enactus|Presente|
 |Henrique de Sales|Enactus|Presente|
+| Felipe Mastromauro Correa | Monitor | Presente |
 |Prof. Hilmer Neri|Presente|
 | Duração | 01:05:06 |
