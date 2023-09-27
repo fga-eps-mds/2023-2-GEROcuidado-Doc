@@ -4,7 +4,7 @@
 
 * Personas e Jornadas de Usuário; 
   - Apresentador: Guilherme Dutra
-  - Resultado: Foi comentado pela membra Larissa do Enactus, que a persona da familia, não correspondia tanto com os tipos de pessoas avalidas numa pesquisa realizada pelos próprios membros do Enactus;
+  - Resultado: Foi comentado pela membra Larissa do Enactus, que a persona da familia, não correspondia tanto com os tipos de pessoas avalidas numa pesquisa onde nela tem uma descriçaõ dos perfis dos familiares;
 * Funcionalidades; 
   - Apresentadores: Henrique Amorim e Gustavo Afonso
   - Resultado: Os membros do Enactus tiveram uma boa aprovação quanto as funcionalidades levantas, porém foram questionados coisas como:
