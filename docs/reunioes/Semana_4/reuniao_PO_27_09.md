@@ -33,5 +33,6 @@
 | Pedro Leite|Enactus|Ausente|
 | Henrique de Sales|Enactus|Presente|
 | Antônio Aldísio | Monitor | Presente |
+| Felipe Mastromauro Correa | Monitor | Presente |
 | Prof. Hilmer Neri|Presente|
 | Duração | 01:00:26 |
