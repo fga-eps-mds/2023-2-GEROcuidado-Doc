@@ -5,7 +5,7 @@
 [![Arthur GIT](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/73190488-1ad3-4fdf-bd49-c2c2d53629ea)](https://github.com/art1505)
 
 ## Data e local
-- Dia do treinamento: sexta-feira(27/09) 14h-16h
+- Dia do treinamento: quarta-feira(27/09) 14h-16h
 </br>
 - Local: Assíncrono
 
