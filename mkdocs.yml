@@ -57,7 +57,22 @@ nav:
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
     - Treinamento de SQL: treinamentos/treinamento_SQL.md
-
+  - Reuniões:
+    - Semana 1:
+      - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
+      - Reunião Geral 05/09: reunioes/Semana_1/reuniao_Geral_05_09.md
+      - Reunião PO 06/09: reunioes/Semana_1/reuniao_PO_06_09.md
+    - Semana 2:
+      - Reunião Geral 12/09: reunioes/Semana_2/reuniao_Geral_12_09.md
+      - Reunião Lean Inception Dia 1 17/09: reunioes/Semana_2/reuniao_Lean_Inception_Dia1_17_09.md
+      - Reunião PO 13/09: reunioes/Semana_2/reuniao_PO_13_09.md
+    - Semana 3:
+      - Reunião Geral 19/09: reunioes/Semana_3/reuniao_Geral_19_09.md
+      - Reunião PO 20/09: reunioes/Semana_3/reuniao_PO_20_09.md
+      - Reunião Treinamento e Lean Inception Dia 2 23/09: reunioes/Semana_3/reuniao_Treinamento_e_Lean_Inception_Dia2_23_09.md
+    - Semana 4:
+      - Reunião Geral 26/09: reunioes/Semana_4/reuniao_Geral_26_09.md
+      - Reunião PO 27/09: reunioes/Semana_4/reuniao_PO_27_09.md
 plugins:
   - search
 
