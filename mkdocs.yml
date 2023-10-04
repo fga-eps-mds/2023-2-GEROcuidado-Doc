@@ -62,6 +62,7 @@ nav:
     - Dia 1: lean_inception/dia_1.md
     - Dia 2: lean_inception/dia_2.md
     - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
 
 plugins:
   - search
