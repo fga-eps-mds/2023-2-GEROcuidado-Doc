@@ -75,6 +75,7 @@ nav:
       - Reunião PO 27/09: reunioes/Semana_4/reuniao_PO_27_09.md
     - Semana 5:
       - Reunião Geral 03/10: reunioes/Semana_5/reuniao_Geral_03_10.md
+      - Reunião PO 04/10: reunioes/Semana_5/reuniao_PO_04_10.md
 
 plugins:
   - search
