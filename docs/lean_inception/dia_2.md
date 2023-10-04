@@ -24,7 +24,23 @@ Nesta etapa, a equipe começa a criar descrições detalhadas das personas que r
 
 #### Persona 4 - Familiar
 
-![Persona 4](../assets/imagens/lean_inception/persona4.png)
+Essa parte da descrição de uma persona da parte familiar, foi corrigida, isso se deve ao fato, de ter sido abordado o ponto de ser uma persona que não se encaixe com os perfis identificados na pesquisa mostrada a seguir, onde nela é abordado os perfis dos familiares que geralmente assumem a responsabilidade de cuidadores.
+
+[Pesquisa Cuidadores](../assets/pesquisa-cuidadores_digital.pdf)
+
+Nessa pesquisa é trazido que o perfil de um familiar é:
+
+![Perfil Familiar](../assets/imagens/lean_inception/pesquisa_perfil_familiar.png)
+
+Considerando essa pesquisa, e tendo sido trazido essas questões pelos membros do Enactus, foi decidido a criação de uma nova persona do ambito familiar, porém a persona criada será mantida, pois pode abordar um outro perfil.
+
+#### Persona 4.1
+
+![Persona 4.1](../assets/imagens/lean_inception/persona4.png)
+
+#### Persona 4.2
+
+![Persona 4.2](../assets/imagens/lean_inception/persona5.png)
 
 ## Jornadas de Usuário
 
