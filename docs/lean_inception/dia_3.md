@@ -36,3 +36,7 @@ Além disso, outra ferramenta importante relacionada à priorização de funcion
 * **<3 (UX - Experiência do Usuário):** Esse símbolo está relacionado ao conceito de User Experience (Experiência do Usuário) e indica o quanto a funcionalidade é interessante para o usuário.
 
 Ao combinar o Gráfico de Semáforo com esses símbolos, a equipe pode ter uma visão mais clara e completa das funcionalidades do projeto, ajudando na tomada de decisões informadas sobre o que implementar primeiro, considerando tanto a compreensão técnica quanto o valor para o usuário e para o negócio.
+
+### Revisão técnica, de negócios e UX do GEROcuidado
+
+![Revisão Técnica](../assets/imagens/lean_inception/revisao_tecnica_final.png)
