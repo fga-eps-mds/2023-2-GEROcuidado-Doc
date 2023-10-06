@@ -19,7 +19,7 @@
 | --- | --- | --- |
 | Arthur Talles de Sousa Cunha | EPS | Presente |
 | Eduardo Gurgel Pereira de Carvalho | EPS | Presente |
-| Gustavo Afonso Pires Severo | EPS | Ausente |
+| Gustavo Afonso Pires Severo | EPS | Presente |
 | Henrique Amorim Costa Melo | EPS | Presente |
 | Pedro Vítor de Salles Cella | EPS | Presente |
 | Duração | 02:39:00 |
