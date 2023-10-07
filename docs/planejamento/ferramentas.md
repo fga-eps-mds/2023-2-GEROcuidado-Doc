@@ -74,11 +74,20 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 >Documentação Oficial: https://docs.nestjs.com/
 
 ## Docker
- - Texto
+ - Docker é uma plataforma aberta para desenvolvimento, envio e execução de aplicativos. A plataforma oferece a capacidade de empacotar, distribuir e executar aplicativos, de forma consistente, em um ambiente isolado chamado ***container***. Os *containers* contêm tudo o que é necessário para executar o aplicativo.
+ - Além disso, é possível compartilhar *containers* enquanto trabalha e garantir que todas as pessoas com quem você compartilha recebam o mesmo *container* que funciona da mesma maneira.
 
 <div align = "center">
     <img src = "../assets/imagens/Docker_logo-700x588.png" alt = "Docker Logo" width = "150" style = "margin: 15">
 </div>
+
+### Vantagens do Docker
+* O Docker agiliza o ciclo de vida de desenvolvimento, permitindo que os desenvolvedores trabalhem em ambientes padronizados.
+* O Docker permite que os desenvolvedores empacotem aplicativos e todas as suas dependências em um container, garantindo que eles funcionem de maneira consistente em
+qualquer ambiente compatível com Docker.
+* continuação
+
+
 
 >Documentação Oficial: https://docs.docker.com/
 
