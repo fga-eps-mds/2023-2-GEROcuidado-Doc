@@ -69,7 +69,26 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
     <img src = "../assets/imagens/nestjs-272666.png" alt = "NestJS Logo" width = "150" style = "margin: 15">
 </div>
 
-- Continuação
+- Para instalar o Nest JS você pode criar o scaffold do projeto com o Nest CLI ou clonar um projeto inicial (ambos produzirão o mesmo resultado).
+- Sendo assim, para estruturar o projeto com o Nest CLI digite os seguintes comandos. Isso criará um novo diretório de projeto e prencherá com os arquivos Nest JS principais iniciais:
+
+    ```bash
+    $ npm i -g @nestjs/cli
+    $ nest new project-name
+    ```
+- Alternativamente, para instalar o projeto inicial TypeScript com Git :
+
+    ```bash
+    $ git clone https://github.com/nestjs/typescript-starter.git project
+    $ cd project
+    $ npm install
+    $ npm run start
+    ```
+- Para instalar a versão JavaScript do projeto inicial, use na sequência dos comandos acima : 
+
+    ```bash
+    javascript-starter.git
+    ```
 
 >Documentação Oficial: https://docs.nestjs.com/
 
@@ -87,16 +106,42 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 qualquer ambiente compatível com Docker.
 * continuação
 
+### Instalação
+- Para instalar o Docker no <b>Linux</b> siga os passos presentes neste link: 
+> https://docs.docker.com/desktop/install/linux-install/
 
+- Para instalar o Docker no <b>Windows</b> siga os passos presentes neste link:
+>https://docs.docker.com/desktop/install/windows-install/
 
+- Para instalr o Docker no <b>Linux</b> siga os passos presentes neste link:
+>https://docs.docker.com/desktop/install/windows-install/ 
+
+- Para mais informações consulte a <b>documentação oficial</b>:
 >Documentação Oficial: https://docs.docker.com/
 
 
 ## PostgreSQL
-- Texto
+- PostgreSQL é um sistema de gerenciamento de banco de dados objeto-relacional (ORDBMS) baseado em POSTGRES, desenvolvido no Departamento de Ciência da Computação da Universidade da Califórnia em Berkeley.
+
+- PostgreSQL é um descendente de código aberto deste código original de Berkeley. Suporta grande parte do Padrão SQL e oferece muitos recursos modernos:
+    - consultas complexas
+    - chaves estrangeiras
+    - gatilhos
+    - visualizações atualizáveis
+    - integridade transacional
+    - controle de simultaneidade multiversão
+    - Item de lista principal
 
 <div align = "center">
     <img src = "../assets/imagens/postgresql-512.png" alt = "PostgreSQL Logo" width = "150" style = "margin: 15">
 </div>
 
->Documentação Oficial: https://www.postgresql.org/docs/
+- Além disso, o PostgreSQL pode ser estendido pelo usuário de várias maneiras, por exemplo, adicionando novos
+    - tipos de dados
+    - funções
+    - operadores
+    - funções agregadas
+
+- continuar
+
+> Documentação Oficial: https://www.postgresql.org/docs/
