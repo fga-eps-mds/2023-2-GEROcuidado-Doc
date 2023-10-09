@@ -56,6 +56,7 @@ nav:
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
+    - Treinamento de SQL: treinamentos/treinamento_SQL.md
   - Reuniões:
     - Semana 1:
       - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
@@ -72,6 +73,10 @@ nav:
     - Semana 4:
       - Reunião Geral 26/09: reunioes/Semana_4/reuniao_Geral_26_09.md
       - Reunião PO 27/09: reunioes/Semana_4/reuniao_PO_27_09.md
+    - Semana 5:
+      - Reunião Geral 03/10: reunioes/Semana_5/reuniao_Geral_03_10.md
+      - Reunião PO 04/10: reunioes/Semana_5/reuniao_PO_04_10.md
+      - Reunião EPS 05/10: reunioes/Semana_5/reuniao_EPS_05_10.md
 
 plugins:
   - search

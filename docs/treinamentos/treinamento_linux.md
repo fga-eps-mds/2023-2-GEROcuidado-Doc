@@ -1,8 +1,8 @@
 # Guia de Linux para Iniciantes
 
 ## Instrutores
-- Eduardo
-- Gustavo
+[![Eduardo GIT](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/65614956-58ab-43b5-a795-064c0f7b6cac)](https://github.com/EduardoGurgel)
+[![Gustavo GIT](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/assets/51385738/4f2b638a-0096-4c85-b603-222f82ca2b0b)](https://github.com/GustavoAPS)
 
 ## Data e local
 - Dia do treinamento: sexta-feira(15/09) 12-14h
