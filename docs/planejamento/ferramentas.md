@@ -109,29 +109,38 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 >Documentação Oficial: https://docs.nestjs.com/
 
 ## Docker
- - Docker é uma plataforma aberta para desenvolvimento, envio e execução de aplicativos. A plataforma oferece a capacidade de empacotar, distribuir e executar aplicativos, de forma consistente, em um ambiente isolado chamado ***container***. Os *containers* contêm tudo o que é necessário para executar o aplicativo.
- - Além disso, é possível compartilhar *containers* enquanto trabalha e garantir que todas as pessoas com quem você compartilha recebam o mesmo *container* que funciona da mesma maneira.
+ * Docker é uma plataforma aberta para desenvolvimento, envio e execução de aplicativos. A plataforma oferece a capacidade de empacotar, distribuir e executar aplicativos, de forma consistente, em um ambiente isolado chamado ***container***, que contêm tudo o que é necessário para executar o aplicativo.  
+* Além disso, é possível compartilhar *containers* e garantir que todas as pessoas com quem você compartilha recebam o mesmo *container* que funciona da mesma maneira. Assim, o Docker evita inconsistências de ambiente, permite o desenvolvimento de um ambiente padronizado e facilita a colaboração.
+* Dessa forma, o Docker é uma ferramenta fundamental para melhorar a eficiência no desenvolvimento e na implantação de software.
 
 <div align = "center">
     <img src = "../assets/imagens/Docker_logo-700x588.png" alt = "Docker Logo" width = "150" style = "margin: 15">
 </div>
 
+### *Containers*
+* Um *container* é uma instância executável de uma **imagem**. É uma unidade de software que empacota uma aplicação e todas as suas dependências, incluindo bibliotecas, configurações e arquivos, em um único pacote executável. Esses containers são projetados para serem portáteis e consistentes, permitindo que uma aplicação seja executada de forma confiável e isolada em qualquer ambiente que suporte a tecnologia de containers.
+### Imagens
+* As imagens Docker são usadas como base para criar instâncias de containers em tempo de execução. Elas são uma parte fundamental da tecnologia de containerização e contêm todas as informações necessárias para criar um container, como códigos, dependências, bibliotecas, variáveis ​​de ambiente e configurações. Por isso, desempenham um papel crucial na portabilidade e na consistência dos containers.
+* Outro ponto importante é sobre a possibilidade de versionamento das imagens Docker, o que permite rastrear e controlar as diferentes versões de um aplicativo.
+
 ### Vantagens do Docker
+* O Docker utiliza containers para isolar aplicativos e suas dependências. Isso garante que cada aplicativo seja executado de forma independente, evitando conflitos de versões e problemas de compatibilidade.
+* Os containers Docker são leves e empacotam todos os componentes necessários para a execução de um aplicativo, tornando-o portátil.
 * O Docker agiliza o ciclo de vida de desenvolvimento, permitindo que os desenvolvedores trabalhem em ambientes padronizados.
-* O Docker permite que os desenvolvedores empacotem aplicativos e todas as suas dependências em um container, garantindo que eles funcionem de maneira consistente em
-qualquer ambiente compatível com Docker.
-* continuação
+* Os containers Docker podem ser implantados rapidamente, reduzindo o tempo necessário para provisionar e escalar aplicativos. Isso é especialmente útil em ambientes de desenvolvimento ágil e DevOps.
+* As imagens Docker podem ser versionadas, o que permite o controle preciso das versões de aplicativos e a reversão para versões anteriores, se necessário.
 
 ### Instalação
-- Para instalar o Docker no <b>Linux</b> siga os passos presentes neste link: 
+- Para instalar o Docker no <b>Linux</b>, acesse: 
 > https://docs.docker.com/desktop/install/linux-install/
 
-- Para instalar o Docker no <b>Windows</b> siga os passos presentes neste link:
+- Para instalar o Docker no <b>Windows</b>, acesse:
 >https://docs.docker.com/desktop/install/windows-install/
 
-- Para instalr o Docker no <b>MacOS</b> siga os passos presentes neste link:
+- Para instalar o Docker no <b>MacOS</b>, acesse:
 >https://docs.docker.com/desktop/install/mac-install/
-- Para mais informações consulte a <b>documentação oficial</b>:
+
+- Para mais informações consulte:
 >Documentação Oficial: https://docs.docker.com/
 
 
@@ -185,25 +194,9 @@ qualquer ambiente compatível com Docker.
  - Para mais informações gerais sobre o postgreSQL acesse o seguinte link :
 > Documentação Oficial: https://www.postgresql.org/docs/
 
-## Autores
+# Histórico de versões
 
-<div style = "display: flex; justify-content: space-around; padding: 15px">
-    <div style ="display: flex; flex-direction: column; justify-content: center; align-itens: center; text-align: center">
-        <a href = "https://github.com/west7">
-        <img src = "https://avatars.githubusercontent.com/u/101183849?v=4" width = "100" style = "border-radius: 50%; border: 3px solid #3f6ec6" >  
-        <p>Guilherme Westphall</p>
-        </a>
-    </div>
-    <div style ="display: flex; flex-direction: column; justify-content: center; align-itens: center; text-align: center">
-        <a href = "https://github.com/W4RT1N5">
-        <img src = "https://avatars.githubusercontent.com/u/104236229?v=4" width = "100" style = "border-radius: 50%; border: 3px solid #3f6ec6" >  
-        <p>Lucas Martins</p>
-        </a>
-    </div>
-    <div style ="display: flex; flex-direction: column; justify-content: center; align-itens: center; text-align: center">
-        <a href = "https://github.com/Thefast777">
-        <img src = "https://avatars.githubusercontent.com/u/111928835?v=4" width = "100" style = "border-radius: 50%; border: 3px solid #3f6ec6" >  
-        <p>Guilherme Dutra</p>
-        </a>
-    </div>
-</div>
+
+| Versão | Data       | Descrição | Autores |
+| ------ | ---------- | --------- | ------- |
+| 1.0    | 09/10/2023 | Documentação React Native, Expo, NestJS, Docker e PostgreSQL | Guilherme Dutra<br>Guilherme Westphall<br>Lucas Martins Gabriel|
