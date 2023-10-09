@@ -157,8 +157,32 @@ qualquer ambiente compatível com Docker.
     - operadores
     - funções agregadas
 
-- continuar
+### Instalação
+- A maioria das distribuições <b>Linux</b> incluem o PostgreSQL por padrão, sendo assim para instalá-lo basta digitar o seguinte comando : 
 
+    ```bash
+    apt-get install postgresql-12
+    ```
+- Para o sistema <b>MacOS </b>existem diversas maneiras de instalar, sendo assim, consulte o seguinte link para baixar da maneira que melhor te convem
+
+>https://www.postgresql.org/download/macosx/
+- Para o <b>Windows</b> basta acessar o link logo abaixo. Tendo selecioando a versão desejada do postgreSQL será baixado o instalador e basta configurar da maneira como desejar
+>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+- Para mais informações de como instalar o postgreSQL acesse o seguinte link :
+>https://www.postgresql.org/download/
+
+### Fundamentos da Arquitetura
+- PostgreSQL usa um modelo cliente/servidor. Uma sessão PostgreSQL consiste nos seguintes processos (programas):
+    - Um processo de servidor, que gerencia os arquivos do banco de dados, aceita conexões do Banco de Dados com os formulários do CLientes e executa ações de banco de dados em nome dos clientes. O programa servidor de banco de dados é chamado postgres.
+
+    - A aplicação cliente(frontend) do usuário que deseja realizar operações de banco de dados.
+
+- Como é comum em aplicações cliente/servidor, o cliente e o servidor podem estar em hosts diferentes. Nesse caso, eles se comunicam por meio de uma conexão de rede TCP/IP. É importante lembrar disso, pois os arquivos que podem ser acessados em uma máquina cliente podem não ser acessíveis (ou podem ser acessíveis apenas com um nome de arquivo diferente) na máquina do servidor de banco de dados.
+
+- O servidor PostgreSQL pode lidar com várias conexões simultâneas de clientes. Para fazer isso, ele inicia ("cria cópias") um novo processo para cada conexão. A partir desse momento, o cliente e o novo processo do servidor se comunicam sem intervenção do processo original do PostgreSQL. Portanto, o processo de supervisão do servidor está sempre em execução, aguardando conexões de clientes, enquanto os processos do cliente e os processos de servidor associados vêm e vão. 
+
+ - Para mais informações gerais sobre o postgreSQL acesse o seguinte link :
 > Documentação Oficial: https://www.postgresql.org/docs/
 
 ## Autores
