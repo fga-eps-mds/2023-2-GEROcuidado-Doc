@@ -6,7 +6,9 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 
  - O React Native é um framework desenvolvido pelo Facebook que utiliza de JavaScript e a biblioteca React para desenvolvimento de aplicativos para IOS e Android. Sendo essa sua principal vantagem, executar o mesmo código em diversas plataformas diferentes. Em vez de renderizar elementos na Web o React utiliza componentes nativos o que resulta em um melhor desempenho. O React Native possui uma grande variadade de componentes em sua biblioteca o que simplifica o desenvolvimento de interfaces complexas.
 
-![React Native](/docs/assets/imagens/React.png)
+<div align = "center">
+    <img src = "/assets/imagens/React.png" alt = "React Native Logo" width = "100" height = "100" style = "margin: 15">
+</div>
 
 
 ### Alguns dos principais components do React Native são:
@@ -43,8 +45,9 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 
 - O expo é uma ferramenta de desenvolvimento de aplicativos usando React Native. Sua principal vantagem é a simplificação no processo de configuração de ambiente. Além disso ele também oferece um conjunto de ferramentas úteis à criação, execução e depuração de aplicativos. O Expo Go é um aplicativo  que permite a visualização em tempo real da aplicação em seu Aparelho pessoal, o que é bem mais fácil para testar o apliactivo durante o desenvolvimento.
 
-![Expo Logo](/docs/assets/imagens/logo-wordmark-light.png)
-
+<div align = "center">
+    <img src = "/assets/imagens/logo-wordmark-light.png" alt = "Expo Logo" width = "150" style = "margin: 15">
+</div>
 
 - Para instalar o Expo basta utilizar o gerenciador de pacotes do NodeJs e executar o comando:
   
@@ -64,7 +67,10 @@ npm expo start
 
 - O NestJS é um framework de desenvolvimento serverside (back-end) baseado em <b>Node.js</b>. O framework utiliza <b>TypeScript</b> (ainda permite que o desenvolvedor programe em JavaScript puro) e combina elementos da OOP (Object Oriented Programming), FP (Functional Programming) e FRP (Functional Reactve Programming). Por baixo dos panos ele também faz uso do <b>Express</b> que é outro framework web. Outra característica interessente que o Nest faz uso são as <b>injeções de dependências</b> para gerenciar a criação e vida de objetos usados no aplicativo.
 
-   ![NestJS](/docs/assets/imagens/nestjs-272666.png)
+<div align = "center">
+    <img src = "/assets/imagens/nestjs-272666.png" alt = "NestJS Logo" width = "150" style = "margin: 15">
+</div>
+
    
 
 ### Modules
@@ -111,7 +117,9 @@ javascript-starter.git
 * Além disso, é possível compartilhar *containers* e garantir que todas as pessoas com quem você compartilha recebam o mesmo *container* que funciona da mesma maneira. Assim, o Docker evita inconsistências de ambiente, permite o desenvolvimento de um ambiente padronizado e facilita a colaboração.
 * Dessa forma, o Docker é uma ferramenta fundamental para melhorar a eficiência no desenvolvimento e na implantação de software.
 
-![docker](/docs/assets/imagens/Docker_logo-700x588.png)
+<div align = "center">
+    <img src = "/assets/imagens/Docker_logo-700x588.png" alt = "Docker Logo" width = "150" style = "margin: 15">
+</div>
 
 
 ### *Containers*
@@ -154,8 +162,9 @@ javascript-starter.git
     - Item de lista principal
 
 
-![PostgreeSQL](/docs/assets/imagens/postgresql-512.png)
-
+<div align="center">
+<img src="/assets/imagens/postgresql-512.png" alt="PostgreSQL Logo" width="150">
+</div>
 
 - Além disso, o PostgreSQL pode ser estendido pelo usuário de várias maneiras, por exemplo, adicionando novos
     - tipos de dados
