@@ -54,4 +54,4 @@ O Canvas MVP ajuda a equipe a visualizar de forma clara e concisa o escopo do Pr
 
 ### Canvas MVP do GEROcuidado
 
-![Canvas MVP]()
+![Canvas MVP](../assets/imagens/lean_inception/Canvas_MVP.png)
