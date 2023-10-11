@@ -7,7 +7,7 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
  - O React Native é um framework desenvolvido pelo Facebook que utiliza de JavaScript e a biblioteca React para desenvolvimento de aplicativos para IOS e Android. Sendo essa sua principal vantagem, executar o mesmo código em diversas plataformas diferentes. Em vez de renderizar elementos na Web o React utiliza componentes nativos o que resulta em um melhor desempenho. O React Native possui uma grande variadade de componentes em sua biblioteca o que simplifica o desenvolvimento de interfaces complexas.
 
 <div align = "center">
-    <img src = "/assets/imagens/React.png" alt = "React Native Logo" width = "100" height = "100" style = "margin: 15">
+    <img src = "https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/assets/imagens/React.png?raw=true" alt = "React Native Logo" width = "100" height = "100" style = "margin: 15">
 </div>
 
 
@@ -46,7 +46,7 @@ Este documento tem como objetivo explicar as tecnologias que serão usadas no pr
 - O expo é uma ferramenta de desenvolvimento de aplicativos usando React Native. Sua principal vantagem é a simplificação no processo de configuração de ambiente. Além disso ele também oferece um conjunto de ferramentas úteis à criação, execução e depuração de aplicativos. O Expo Go é um aplicativo  que permite a visualização em tempo real da aplicação em seu Aparelho pessoal, o que é bem mais fácil para testar o apliactivo durante o desenvolvimento.
 
 <div align = "center">
-    <img src = "/assets/imagens/logo-wordmark-light.png" alt = "Expo Logo" width = "150" style = "margin: 15">
+    <img src = "https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/assets/imagens/logo-wordmark-light.png?raw=true" alt = "Expo Logo" width = "150" style = "margin: 15">
 </div>
 
 - Para instalar o Expo basta utilizar o gerenciador de pacotes do NodeJs e executar o comando:
@@ -68,7 +68,7 @@ npm expo start
 - O NestJS é um framework de desenvolvimento serverside (back-end) baseado em <b>Node.js</b>. O framework utiliza <b>TypeScript</b> (ainda permite que o desenvolvedor programe em JavaScript puro) e combina elementos da OOP (Object Oriented Programming), FP (Functional Programming) e FRP (Functional Reactve Programming). Por baixo dos panos ele também faz uso do <b>Express</b> que é outro framework web. Outra característica interessente que o Nest faz uso são as <b>injeções de dependências</b> para gerenciar a criação e vida de objetos usados no aplicativo.
 
 <div align = "center">
-    <img src = "/assets/imagens/nestjs-272666.png" alt = "NestJS Logo" width = "150" style = "margin: 15">
+    <img src = "https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/assets/imagens/nestjs-272666.png?raw=true" alt = "NestJS Logo" width = "150" style = "margin: 15">
 </div>
 
    
@@ -118,7 +118,7 @@ javascript-starter.git
 * Dessa forma, o Docker é uma ferramenta fundamental para melhorar a eficiência no desenvolvimento e na implantação de software.
 
 <div align = "center">
-    <img src = "/assets/imagens/Docker_logo-700x588.png" alt = "Docker Logo" width = "150" style = "margin: 15">
+    <img src = "https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/assets/imagens/Docker_logo-700x588.png?raw=true" alt = "Docker Logo" width = "150" style = "margin: 15">
 </div>
 
 
@@ -163,7 +163,7 @@ javascript-starter.git
 
 
 <div align="center">
-<img src="/assets/imagens/postgresql-512.png" alt="PostgreSQL Logo" width="150">
+<img src="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/docs/assets/imagens/postgresql-512.png?raw=true" alt="PostgreSQL Logo" width="150">
 </div>
 
 - Além disso, o PostgreSQL pode ser estendido pelo usuário de várias maneiras, por exemplo, adicionando novos
