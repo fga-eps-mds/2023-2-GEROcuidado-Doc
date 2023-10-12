@@ -1,25 +1,25 @@
-## ATA de Reunião (05/10):
+## ATA de Reunião (09/10):
 
 ## Pauta
 
-- Criação e definição da arquitetura;
-- Criação do EAP;
+- Criação do canvas MVP;
+- Criação cronograma;
+- Planejamento para elaboração das histórias de usuário.
 
 ## Documentos produzidos
 
-### EAP
+- Cronograma
+- Canvas MVP
 
-![EAP](/docs/assets/imagens/eap.png)
+### Canvas MVP
 
-### Diagrama de Arquitetura
+![EAP](/docs/assets/imagens/canvas_mvp.png)
 
-![Diagrama de Arquitetura](/docs/assets/imagens/diagrama_de_arquitetura_atual.jpg)
-
-| <b>Presentes na Reunião (05/10)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
+| <b>Presentes na Reunião (09/10)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | ----------------------------------- | ------------------------- | ----------- |
 | Arthur Talles de Sousa Cunha        | EPS                       | Presente    |
 | Eduardo Gurgel Pereira de Carvalho  | EPS                       | Presente    |
 | Gustavo Afonso Pires Severo         | EPS                       | Presente    |
 | Henrique Amorim Costa Melo          | EPS                       | Presente    |
 | Pedro Vítor de Salles Cella         | EPS                       | Presente    |
-| Duração                             | 02:39:00                  |             |
+| Duração                             | 01:45:00                  |             |
