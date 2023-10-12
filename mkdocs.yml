@@ -77,7 +77,9 @@ nav:
       - Reunião Geral 03/10: reunioes/Semana_5/reuniao_Geral_03_10.md
       - Reunião PO 04/10: reunioes/Semana_5/reuniao_PO_04_10.md
       - Reunião EPS 05/10: reunioes/Semana_5/reuniao_EPS_05_10.md
-      - Renunião EPS 09/10: reunioes/Semana_5/reuniao_EPS_09_10.md
+    - Semana 6:
+      - Reunião EPS 09/10: reunioes/Semana_6/reuniao_EPS_09_10.md
+      - Reunião PO 11/10: reunioes/Semana_6/reuniao_PO_11_10.md
 
 plugins:
   - search
