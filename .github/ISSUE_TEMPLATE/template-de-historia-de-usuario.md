@@ -12,7 +12,7 @@ Eu, como [Persona], desejo [Tarefa a ser realizada] para que [Finalidade] .
 <!--- Descrição da tarefa -->
 
 ### Pré-requisitos
-<!--- Qual funcitonalidade (Sequenciador) deve ser feito antes -->
+<!--- Qual funcionalidade (Sequenciador) deve ser feito antes -->
 
 <!--- Ex -->
 <!--- CRUD Usuário -->
