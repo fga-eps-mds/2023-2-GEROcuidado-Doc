@@ -53,6 +53,13 @@ nav:
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
     - Ferramentas: planejamento/ferramentas.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md 
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
+    - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
   - Treinamentos:
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
