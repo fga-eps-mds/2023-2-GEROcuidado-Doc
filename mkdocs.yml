@@ -42,7 +42,7 @@ extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Home: index.md
+  - Home: index.
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Quadro de conhecimento: planejamento/quadro_conhecimento.md
@@ -52,7 +52,9 @@ nav:
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
-    - Ferramentas: planejamento/ferramentas.md
+  - Produto:
+    - Documento de Arquitetura: produto/documento_arquitetura.md
+    - Ferramentas: produto/ferramentas.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
