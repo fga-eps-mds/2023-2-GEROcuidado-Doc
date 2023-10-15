@@ -53,6 +53,8 @@ nav:
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
     - Ferramentas: planejamento/ferramentas.md
+  - Produto:
+    - Guia de estilo: produto/guia_de_estilo.md
   - Treinamentos:
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
