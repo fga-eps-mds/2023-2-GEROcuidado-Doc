@@ -13,7 +13,7 @@
 
 ### Canvas MVP
 
-![EAP](/docs/assets/imagens/canvas_mvp.png)
+![EAP](../../assets/imagens/canvas_mvp.png)
 
 | <b>Presentes na Reunião (09/10)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | ----------------------------------- | ------------------------- | ----------- |
