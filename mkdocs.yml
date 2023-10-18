@@ -53,6 +53,7 @@ nav:
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
     - Ferramentas: planejamento/ferramentas.md
+    - Estrutura Analítica do Projeto: planejamento/eap.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
