@@ -46,15 +46,16 @@ nav:
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Quadro de conhecimento: planejamento/quadro_conhecimento.md
-    - Quadro de pareamento: planejamento/quadro_pareamento.md
     - Plano de contribuição: planejamento/plano_de_contribuicao.md  
     - Plano de comunicação: planejamento/plano_de_comunicacao.md
     - Plano de custos: planejamento/plano_de_custos.md
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Estrutura Analítica do Projeto: planejamento/eap.md
+  - Produto:
+    - Documento de Arquitetura: produto/documento_arquitetura.md
+    - Ferramentas: produto/ferramentas.md
+    - Documento de Banco de Dados: produto/banco_de_dados.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
@@ -91,7 +92,6 @@ nav:
       - Reunião EPS 05/10: reunioes/Semana_5/reuniao_EPS_05_10.md
     - Semana 6:
       - Reunião EPS 09/10: reunioes/Semana_6/reuniao_EPS_09_10.md
-      - Reunião Geral 10/10: reunioes/Semana_6/reuniao_geral_10_10.md
       - Reunião PO 11/10: reunioes/Semana_6/reuniao_PO_11_10.md
       - Reunião Banco de Dados 11/10: reunioes/Semana_6/reuniao_EPS_MDS_Banco_de_Dados11_10.md
 
@@ -102,3 +102,4 @@ markdown_extensions:
   - abbr
   - attr_list
   - pymdownx.snippets
+
