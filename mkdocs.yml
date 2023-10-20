@@ -42,7 +42,7 @@ extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Home: index.
+  - Home: index.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Quadro de conhecimento: planejamento/quadro_conhecimento.md
