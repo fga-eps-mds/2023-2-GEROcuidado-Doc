@@ -93,6 +93,7 @@ nav:
       - Reunião EPS 09/10: reunioes/Semana_6/reuniao_EPS_09_10.md
       - Reunião Geral 10/10: reunioes/Semana_6/reuniao_geral_10_10.md
       - Reunião PO 11/10: reunioes/Semana_6/reuniao_PO_11_10.md
+      - Reunião Banco de Dados 11/10: reunioes/Semana_6/reuniao_EPS_MDS_Banco_de_Dados11_10.md
 
 plugins:
   - search
