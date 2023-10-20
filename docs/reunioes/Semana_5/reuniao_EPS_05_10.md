@@ -9,11 +9,11 @@
 
 ### EAP
 
-![EAP](/docs/assets/imagens/eap.png)
+![EAP](../../assets/imagens/eap.png)
 
 ### Diagrama de Arquitetura
 
-![Diagrama de Arquitetura](/docs/assets/imagens/diagrama_de_arquitetura_atual.jpg)
+![Diagrama de Arquitetura](../../assets/imagens/diagrama_de_arquitetura_atual.jpg)
 
 | <b>Presentes na Reunião (05/10)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
 | ----------------------------------- | ------------------------- | ----------- |
