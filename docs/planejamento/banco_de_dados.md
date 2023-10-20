@@ -68,7 +68,7 @@ Um Dicionário de Dados é uma referência essencial em gerenciamento de dados. 
 ![COMENTARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/COMENTARIO.png)
 
 
-**<strong> 2.4.2 Relacionamentos </strong>**
+### <strong> 2.4.2 Relacionamentos </strong>
 ### Publicação tem comentário
 ![PUB_TEM_COMENTARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/RELACIONAMENTO_COMENTARIO.png)
 
