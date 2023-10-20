@@ -42,30 +42,35 @@ O Diagrama Lógico de Dados (DLD) é uma representação gráfica que ilustra a 
 Um Dicionário de Dados é uma referência essencial em gerenciamento de dados. Ele é um documento ou repositório que descreve detalhadamente os elementos de um banco de dados, como tabelas, campos, relacionamentos e regras de negócios associadas. O Dicionário de Dados serve como uma fonte confiável de informações para desenvolvedores, analistas e outros stakeholders, garantindo a compreensão e a consistência dos dados dentro de um sistema. Ele fornece informações cruciais sobre a estrutura e a semântica dos dados, auxiliando na manutenção, integração e uso eficaz das informações em um contexto organizacional.
 </p>
 
-**<strong> 2.4.1 Entidades </strong>**
-* Usuário
+### <strong> 2.4.1 Entidades </strong>
+### Usuário
 ![USUARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/USUARIO.png)
-* Paciente
+
+### Paciente
 ![Paciente](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/PACIENTE.png)
-* Métricas de saúde
+
+### Métricas de saúde
 ![METRICA](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/METRICA_SAUDE.png)
-* Valor das métricas de saúde
+
+### Valor das métricas de saúde
 ![VALOR_METRICA](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/VALOR_METRICA.png)
-* Rotina
+
+### Rotina
 ![ROTINA](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/ROTINA.png)
-* Publicação
+
+### Publicação
 ![PUBLICACAO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/PUBLICACAO.png)
-* Like
-![LIKE](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/LIKE.png)
-* Comentário
-![COMENTARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/COMENTARIO.png)
+
+### Like ![LIKE](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/LIKE.png)
+
+### Comentário ![COMENTARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/COMENTARIO.png)
 
 
 **<strong> 2.4.2 Relacionamentos </strong>**
-* Publicação tem comentário
+### Publicação tem comentário
 ![PUB_TEM_COMENTARIO](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/RELACIONAMENTO_COMENTARIO.png)
 
-* Publicação tem like
+### Publicação tem like
 ![PUB_TEM_LIKE](/docs/assets/imagens/banco_de_dados/dicionario_de_dados/RELACIONAMENTO_LIKE.png)
 
 ### <strong> 2.5 Link </strong>
