@@ -44,10 +44,6 @@ Através do microsserviço de Fórum, o aplicativo GEROcuidado promove uma comun
 
 ## Microsserviço Saúde
 
-Certamente, vou reescrever a descrição do microsserviço de Saúde, incluindo a [US-05] CRUD de Idosos:
-
-**Microsserviço de Saúde**
-
 O microsserviço de Saúde no aplicativo GEROcuidado desempenha um papel fundamental na gestão e acompanhamento da saúde dos idosos, cuidadores formais, cuidadores informais e familiares. Este microsserviço é projetado para fornecer funcionalidades relacionadas ao registro, acompanhamento e gerenciamento de informações de saúde, bem como rotinas de cuidados. Suas principais funcionalidades incluem:
 
 1. **CRUD de Informações de Saúde do Idoso:** Os cuidadores formais, cuidadores informais, idosos autônomos e familiares têm a capacidade de registrar, atualizar, visualizar e apagar informações de saúde, como métricas vitais (por exemplo, frequência cardíaca, oxigenação do sangue) e outras informações relevantes para o acompanhamento da saúde. Isso permite que os usuários acompanhem de perto a saúde dos idosos sob seus cuidados ou suas próprias métricas de saúde.
