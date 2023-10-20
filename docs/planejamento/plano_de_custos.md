@@ -45,5 +45,15 @@ Energia = KW X h por consumo
 ### Equipamentos
 Para equipamentos para a equipe consideramos um custo de R$ 3.299,00 por notebook para cada integrante.
 
-## Planilha de custos
+## Planilha de membros e custo por estudante
 <iframe width=100% height=700 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS1ntZFNGo6Mu4eVWV3TNgZAS5n4-ErwNRnIT99V4OcL8cF9SpjqZWYzVZgGQ0R8hXR4qwDwD2TM0Ma/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+## Planilha de custos
+<iframe width=100% height=500 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTD-BMj0DO49bPuvIQzF2urtJQmbuqk-cCXvGgFmb8SgGUqkts0POhpMXek0x8FYgNkdQ5AV5cs8IAi/pubhtml?widget=true&amp;headers=false"></iframe>
+
+| Versão | Data       | Descrição | Autores |
+| ------ | ---------- | --------- | ------- |
+| 1.0    | 24/09/2023 | Abertura do documento | Eduardo Gurgel |
+| 1.1    | 20/10/2023 | Adição dos indicadores | Eduardo Gurgel e Pedro Cella |
+---
+
