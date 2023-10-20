@@ -20,15 +20,13 @@ A arquitetura abaixo ilustra a forma como irá funcionar todas as partes, sendo 
 
 ## Microsserviço Usuário
 
-O microsserviço de Usuário no aplicativo GEROcuidado desempenha um papel fundamental na gestão e autenticação de usuários, que podem ser cuidadores formais, cuidadores informais, idosos autônomos ou familiares de idosos. Este microsserviço é projetado para fornecer funcionalidades relacionadas à gestão de contas e acesso de usuários ao sistema. As principais funcionalidades desse microsserviço incluem:
+O microsserviço de Usuário no aplicativo GEROcuidado desempenha um papel essencial na autenticação e gestão de usuários, abrangendo cuidadores formais, idosos autônomos e familiares. Este microsserviço oferece funcionalidades fundamentais relacionadas ao registro e gerenciamento de contas de usuário, permitindo que os usuários acessem as diversas funcionalidades do sistema. Suas principais funcionalidades incluem:
 
-1. **CRUD de Usuário (Create, Read, Update, Delete):** Os usuários podem se cadastrar no sistema, fornecendo informações pessoais, como nome, endereço de e-mail, senha segura e outros dados relevantes. Além disso, eles podem atualizar ou excluir suas informações de perfil conforme necessário.
+1. **CRUD de Usuário (Create, Read, Update, Delete):** Os cuidadores formais, idosos autônomos e familiares têm a capacidade de se registrar na plataforma, fornecendo informações pessoais, como nome, endereço de e-mail, senha segura e outros detalhes relevantes. Esse processo de registro é fundamental para criar uma conta no aplicativo, permitindo o acesso às funcionalidades e recursos disponíveis.
 
-2. **CRUD de Idosos:** Os cuidadores formais, cuidadores informais e familiares têm a capacidade de gerenciar o cadastro de idosos no sistema. Isso inclui adicionar informações detalhadas sobre os idosos, como nome, idade, condições de saúde, preferências e outras informações essenciais para o acompanhamento de sua saúde e bem-estar. 
+Além disso, o microsserviço de Usuário também se concentra em questões de segurança, implementando políticas de senhas robustas e fornecendo uma funcionalidade de recuperação de senha para garantir a proteção dos dados dos usuários. Isso ajuda a garantir que apenas usuários autorizados tenham acesso ao sistema e que suas informações estejam protegidas.
 
-Além disso, o microsserviço de Usuário desempenha um papel importante na autenticação dos usuários e na gestão de permissões de acesso, garantindo que apenas os usuários autorizados tenham acesso às funcionalidades específicas do aplicativo.
-
-Em resumo, o microsserviço de Usuário é essencial para a identificação, autenticação e gestão das informações dos usuários do aplicativo GEROcuidado, garantindo que os cuidadores formais, cuidadores informais e familiares possam acessar e gerenciar informações relacionadas aos idosos de forma segura e eficaz.
+Em resumo, o microsserviço de Usuário é a pedra angular da autenticação e do gerenciamento de contas de usuário no aplicativo GEROcuidado, permitindo que cuidadores, idosos autônomos e familiares acessem e utilizem as funcionalidades do sistema de forma segura e eficiente.
 
 ## Microsserviço Fórum 
 
@@ -46,23 +44,23 @@ Através do microsserviço de Fórum, o aplicativo GEROcuidado promove uma comun
 
 ## Microsserviço Saúde
 
-O microsserviço de Saúde no aplicativo GEROcuidado tem como foco principal o acompanhamento e gerenciamento das informações de saúde relacionadas aos idosos e aos usuários, incluindo cuidadores formais, cuidadores informais e familiares. Este microsserviço engloba várias funcionalidades para garantir um acompanhamento eficaz e organizado da saúde dos idosos, bem como a gestão das rotinas diárias. Suas principais funcionalidades incluem:
+Certamente, vou reescrever a descrição do microsserviço de Saúde, incluindo a [US-05] CRUD de Idosos:
 
-**1. CRUD de Informações de Saúde do Idoso:**
-- Cuidadores formais, cuidadores informais e familiares podem registrar, atualizar, visualizar e apagar informações de saúde dos idosos ou de si mesmos. Isso inclui métricas de saúde como frequência cardíaca, oxigenação do sangue e outras informações relevantes. Os usuários podem criar métricas de saúde, especificando a categoria e o valor máximo (opcional), além de atualizá-las através de novos cadastros.
+**Microsserviço de Saúde**
 
-**2. CRUD de Rotina:**
-- Este microsserviço também abrange a gestão da rotina dos idosos. Os cuidadores, tanto formais como informais, têm a capacidade de cadastrar, visualizar, editar e remover informações sobre a rotina dos idosos. Isso inclui horários para medicamentos, atividades físicas e alimentação, permitindo que os cuidadores acompanhem e garantam o cumprimento das necessidades específicas de cada idoso.
+O microsserviço de Saúde no aplicativo GEROcuidado desempenha um papel fundamental na gestão e acompanhamento da saúde dos idosos, cuidadores formais, cuidadores informais e familiares. Este microsserviço é projetado para fornecer funcionalidades relacionadas ao registro, acompanhamento e gerenciamento de informações de saúde, bem como rotinas de cuidados. Suas principais funcionalidades incluem:
 
-- Além disso, os idosos autônomos também podem utilizar essa funcionalidade para cadastrar, visualizar, editar e remover informações sobre sua própria rotina, proporcionando um lembrete dos horários das atividades.
+1. **CRUD de Informações de Saúde do Idoso:** Os cuidadores formais, cuidadores informais, idosos autônomos e familiares têm a capacidade de registrar, atualizar, visualizar e apagar informações de saúde, como métricas vitais (por exemplo, frequência cardíaca, oxigenação do sangue) e outras informações relevantes para o acompanhamento da saúde. Isso permite que os usuários acompanhem de perto a saúde dos idosos sob seus cuidados ou suas próprias métricas de saúde.
 
-**3. Criação de Notificações:**
-- Os usuários têm a capacidade de receber notificações do aplicativo para lembrá-los de realizar as atividades cadastradas, como tomar medicamentos ou realizar exercícios. Isso ajuda a manter a disciplina e garantir que as tarefas de saúde sejam cumpridas de maneira adequada.
+2. **CRUD de Rotina:** Os cuidadores, tanto formais quanto informais, podem cadastrar, visualizar, editar e remover informações sobre a rotina dos idosos que cuidam. Isso inclui informações sobre medicamentos, atividades físicas e alimentação, permitindo o controle dos horários e o cumprimento das necessidades específicas de cada idoso. Além disso, os idosos independentes também têm a opção de gerenciar sua própria rotina, registrando informações sobre medicamentos, atividades físicas e alimentação para serem lembrados dos horários.
 
-**4. Adição de Agenda/Calendário:**
-- Os cuidadores podem criar agendas e calendários para agendar tarefas específicas relacionadas à saúde e rotina dos idosos. Esses agendamentos ajudam os cuidadores a serem notificados das atividades planejadas, garantindo que nada seja esquecido.
+3. **Criação de Notificações:** Os usuários podem receber notificações do aplicativo para lembrá-los de realizar atividades cadastradas, como tomar medicamentos, realizar exercícios ou seguir uma dieta específica. Isso ajuda a garantir que as tarefas de cuidado sejam cumpridas de forma consistente.
 
-O microsserviço de Saúde é essencial para a promoção de um cuidado eficaz e organizado da saúde dos idosos, permitindo que cuidadores e idosos autônomos acompanhem e gerenciem informações de saúde, bem como suas rotinas diárias. A adição de notificações e calendários torna mais fácil para os usuários lembrarem-se de suas tarefas e manterem o controle de suas atividades diárias.
+4. **Adição de Agenda/Calendário:** Os cuidadores podem agendar tarefas em um calendário para receber notificações sobre atividades importantes. Isso cria um calendário que permite o agendamento de tarefas e eventos relacionados ao cuidado dos idosos, garantindo que o cuidador seja lembrado das atividades no momento certo.
+
+5. **CRUD de Idosos:** Os cuidadores formais, cuidadores informais e familiares podem gerenciar o cadastro de idosos no sistema, incluindo informações detalhadas sobre os idosos, como nome, idade, condições de saúde e preferências. Isso facilita o acompanhamento individualizado de cada idoso e o acesso rápido às informações de saúde e rotina específicas de cada um.
+
+O microsserviço de Saúde é essencial para o acompanhamento eficaz da saúde dos idosos e a gestão de rotinas de cuidado, garantindo que as métricas de saúde sejam registradas e monitoradas, as rotinas sejam cumpridas e as notificações sejam usadas para manter todos os envolvidos informados sobre as atividades necessárias para a saúde e o bem-estar dos idosos. A inclusão da [US-05] CRUD de Idosos facilita o gerenciamento individualizado de cada idoso e suas informações específicas.
 
 ## Documentos complementares
 
