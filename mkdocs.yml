@@ -53,7 +53,6 @@ nav:
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
   - Produto:
-    - Documento de Arquitetura: produto/documento_arquitetura.md
     - Ferramentas: produto/ferramentas.md
     - Documento de Banco de Dados: produto/banco_de_dados.md
   - Lean Inception:
