@@ -39,6 +39,15 @@ O Jest é um framework de teste JavaScript amplamente utilizado para testar apli
 
 - Testes de Desempenho: Implementaremos testes de desempenho para garantir que o software seja responsivo e eficiente, especialmente em cenários de carga elevada.
 
+
+## Testes Unitarios
+
+Os testes unitários são realizados para avaliar o comportamento das menores unidades em uma aplicação. Isso implica, tecnicamente, examinar o desempenho de entidades individuais, que podem ser representadas por classes em linguagens orientadas a objetos, ou até mesmo métodos de classe, no contexto de linguagens orientadas a objetos. Em linguagens de programação processuais e funcionais, as menores unidades podem se referir a procedimentos ou funções independentes.
+
+## Testes E2E
+
+Além dos testes unitários e de integração, incorporaremos testes E2E (End to end) em Node.js para garantir que todo o fluxo de aplicação, desde a interface do usuário até o banco de dados, funcione de maneira integrada e sem problemas. Usaremos bibliotecas e ferramentas disponíveis junto ao node para realizar testes E2E. O objetivo dessa ferramenta de teste é validar a experiência do usuário final e identificar problemas em cenários do mundo real.
+
 ## Referências
 
 > SONNAR CLOUD, <https://www.sonarsource.com/products/sonarcloud/>. Acesso em: 17 de Out. 2023.
