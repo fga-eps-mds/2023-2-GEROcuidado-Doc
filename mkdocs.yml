@@ -52,8 +52,9 @@ nav:
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Estrutura Analítica do Projeto: planejamento/eap.md
+  - Produto:
+    - Ferramentas: produto/ferramentas.md
+    - Documento de Banco de Dados: produto/banco_de_dados.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
@@ -90,8 +91,14 @@ nav:
       - Reunião EPS 05/10: reunioes/Semana_5/reuniao_EPS_05_10.md
     - Semana 6:
       - Reunião EPS 09/10: reunioes/Semana_6/reuniao_EPS_09_10.md
-      - Reunião Geral 10/10: reunioes/Semana_6/reuniao_geral_10_10.md
+      - Reunião Geral 10/10: reunioes/Semana_6/reuniao_Geral_10_10.md
       - Reunião PO 11/10: reunioes/Semana_6/reuniao_PO_11_10.md
+      - Reunião Banco de Dados 11/10: reunioes/Semana_6/reuniao_EPS_MDS_Banco_de_Dados11_10.md
+    - Sprint 1:
+      - Planning: reunioes/Sprint_1/planning.md
+      - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
+      - Reunião Pareamento 20/10: reunioes/Sprint1/reuniao_Pareamento_20_10.md
+      - Reunião Pareamento 21/10: reunioes/Sprint1/reuniao_Pareamento_21_10.md
 
 plugins:
   - search
@@ -100,3 +107,4 @@ markdown_extensions:
   - abbr
   - attr_list
   - pymdownx.snippets
+
