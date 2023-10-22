@@ -66,6 +66,7 @@ nav:
     - Dia 3: lean_inception/dia_3.md
     - Dia 4: lean_inception/dia_4.md
   - Treinamentos:
+    - Cronograma Dojos: treinamentos/cronograma_dojos.md
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
