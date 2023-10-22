@@ -14,7 +14,7 @@ Nesse semestre a proposta do MVP focou nas funcionalidades de crud de usuário, 
 
 A arquitetura abaixo ilustra a forma como irá funcionar todas as partes, sendo elas o Frontend, onde ocorre o input através da interface de usuário, após esse input é encaminhado para o microsserviço especificado, sendo eles o Microsserviço Usuário atrelado as funcionalidades de CRUD quanto aos usuários e perfis de usuário, Microsserviço Fórum associado a parte do fórum, publicações, like e comentário e finalmente o  Microsserviço Saúde, responsável pelas informações de saúde do idoso, como pressão, oxigenação do sangue, entre outros. Além disso temos os bancos de cada microsserviços, responsável por armazenar todas essas informações. Abaixo a arquitetura ilustrando todos esses pedaços:
 
-![Arquitetura](../assets/imagens/Arquitetura.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FykLG7DtlsVt4DjnEKsu2Q5%2FArquitetura%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DP48ifoDUxR7LdiIy-1" allowfullscreen></iframe>
 
 ## Frontend
 
