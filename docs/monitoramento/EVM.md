@@ -16,10 +16,11 @@ A cada iteração(sprint) será possível coletar as seguintes métricas:
 
 ## Análise
 
-
+<iframe frameborder="0" style="width:100%;height:650px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRT_XRWWlOnPJ4HvBdLZZNybTUcHvjayybXt-s7qGMZJ6fEVD7659COWX2KhLZLx3npO65UzJXLJpgK/pubhtml?widget=true&amp;headers=false"></iframe>
 
 
 | Versão | Data       | Descrição | Autores |
 | ------ | ---------- | --------- | ------- |
 | 1.0    | 22/10/2023 | Abertura do documento | Eduardo Gurgel |
+| 2.0    | 22/10/2023 | Adição do EVM realizado | Eduardo Gurgel e Arthur Talles |
 ---
