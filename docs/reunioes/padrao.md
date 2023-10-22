@@ -7,6 +7,7 @@ Para manter a organização e o registro eficaz das reuniões, adotamos o seguin
 Criaremos uma pasta para cada semana, seguindo o formato `Semana_Numero_Semana`, onde o número da semana começa em 1 e aumenta a cada semana subsequente.
 
 Por exemplo:
+
 - `Semana_1`
 - `Semana_2`
 - `Semana_3`
@@ -37,15 +38,13 @@ Lembre-se de seguir este padrão ao criar e armazenar arquivos de reunião para 
 Ao escrever o conteúdo dos arquivos das reuniões, siga este modelo:
 
 ```markdown
-
 ## ATA de Reunião (DD/MM):
 
 ## Pauta
 
 | <b>Presentes na Reunião (DD/MM)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
-| --- | --- | --- |
-| Duração |  |
-
+| ----------------------------------- | ------------------------- | ----------- |
+| Duração                             |                           |
 ```
 
 Como resultado temos:
@@ -59,11 +58,10 @@ Como resultado temos:
 - Pauta 3
 
 | <b>Presentes na Reunião (04/09)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |
-| --- | --- | --- |
-| Membro 1 | EPS | Presente |
-| Membro 2 | EPS | Presente |
-| Membro 3 | EPS | Ausente |
-| Membro 4 | MDS | Presente |
-| Membro 5 | MDS | Presente |
-| Duração | 00:21:45 |
-
+| ----------------------------------- | ------------------------- | ----------- |
+| Membro 1                            | EPS                       | Presente    |
+| Membro 2                            | EPS                       | Presente    |
+| Membro 3                            | EPS                       | Ausente     |
+| Membro 4                            | MDS                       | Presente    |
+| Membro 5                            | MDS                       | Presente    |
+| Duração                             | 00:21:45                  |             |
