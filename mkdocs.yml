@@ -64,13 +64,25 @@ nav:
     - Ferramentas: produto/ferramentas.md
     - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
+    - Documento de Banco de Dados: produto/banco_de_dados.md
+    - Guia de estilo: produto/guia_de_estilo.md
+    - Protótipo: produto/prototipo.md
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md 
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
+    - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
   - Treinamentos:
+    - Cronograma Dojos: treinamentos/cronograma_dojos.md
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
     - Treinamento de Javascript: treinamentos/treinamento_javascript.md
     - Treinamento de SQL: treinamentos/treinamento_SQL.md
     - Treinamento de HTML CSS: treinamentos/treinamento_HTML_CSS.md
+    - Treinamento de Docker: treinamentos/treinamento_docker.md
   - Reuniões:
     - Semana 1:
       - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md

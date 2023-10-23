@@ -44,9 +44,13 @@ O Jest é um framework de teste JavaScript amplamente utilizado para testar apli
 
 Os testes unitários são realizados para avaliar o comportamento das menores unidades em uma aplicação. Isso implica, tecnicamente, examinar o desempenho de entidades individuais, que podem ser representadas por classes em linguagens orientadas a objetos, ou até mesmo métodos de classe, no contexto de linguagens orientadas a objetos. Em linguagens de programação processuais e funcionais, as menores unidades podem se referir a procedimentos ou funções independentes.
 
+## Testes De Integração
+
+Os testes de integração são uma parte essencial do processo de garantia de qualidade de software. Eles têm como objetivo avaliar como diferentes componentes de um sistema interagem entre si. Em contraste com os testes unitários, que se concentram na avaliação do comportamento de unidades individuais de código, os testes de integração abordam a funcionalidade do sistema como um todo. Eles são projetados para identificar problemas que podem surgir quando módulos ou componentes independentes são combinados e operam juntos. Os testes de integração ajudam a verificar se as partes do sistema se comunicam e colaboram corretamente, garantindo que a aplicação funcione de maneira harmoniosa e cumpra os requisitos de negócios. Eles desempenham um papel fundamental na identificação de possíveis falhas, inconsistências ou incompatibilidades que podem surgir nas interfaces entre os componentes, proporcionando uma visão abrangente da robustez e da integridade do software.
+
 ## Testes E2E
 
-Além dos testes unitários e de integração, incorporaremos testes E2E (End to end) em Node.js para garantir que todo o fluxo de aplicação, desde a interface do usuário até o banco de dados, funcione de maneira integrada e sem problemas. Usaremos bibliotecas e ferramentas disponíveis junto ao node para realizar testes E2E. O objetivo dessa ferramenta de teste é validar a experiência do usuário final e identificar problemas em cenários do mundo real.
+Além dos testes unitários e de integração, incorporaremos testes E2E (End to end) em Node.js, os testes E2E s para garantir que todo o fluxo de aplicação, desde a interface do usuário até o banco de dados, funcione de maneira integrada e sem problemas. Usaremos bibliotecas e ferramentas disponíveis junto ao node para realizar testes E2E. O objetivo dessa ferramenta de teste é validar a experiência do usuário final e identificar problemas em cenários do mundo real.
 
 ## Referências
 
