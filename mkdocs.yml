@@ -43,9 +43,17 @@ extra_css:
 
 nav:
   - Home: index.
+  - Lean Inception:
+    - Lean Inception: lean_inception/lean_inception.md 
+    - Kick-off: lean_inception/kickoff.md
+    - Dia 1: lean_inception/dia_1.md
+    - Dia 2: lean_inception/dia_2.md
+    - Dia 3: lean_inception/dia_3.md
+    - Dia 4: lean_inception/dia_4.md
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Quadro de conhecimento: planejamento/quadro_conhecimento.md
+    - Quadro de pareamento: planejamento/quadro_de_disponibilidade.md
     - Plano de contribuição: planejamento/plano_de_contribuicao.md  
     - Plano de comunicação: planejamento/plano_de_comunicacao.md
     - Plano de custos: planejamento/plano_de_custos.md
@@ -57,16 +65,8 @@ nav:
   - Produto:
     - Documento de Arquitetura: produto/documento_arquitetura.md
     - Ferramentas: produto/ferramentas.md
-    - Ferramentas: planejamento/ferramentas.md
     - Guia de estilo: produto/guia_de_estilo.md
     - Documento de Banco de Dados: produto/banco_de_dados.md
-  - Lean Inception:
-    - Lean Inception: lean_inception/lean_inception.md 
-    - Kick-off: lean_inception/kickoff.md
-    - Dia 1: lean_inception/dia_1.md
-    - Dia 2: lean_inception/dia_2.md
-    - Dia 3: lean_inception/dia_3.md
-    - Dia 4: lean_inception/dia_4.md
   - Treinamentos:
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
