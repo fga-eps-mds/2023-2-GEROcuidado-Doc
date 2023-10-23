@@ -42,7 +42,7 @@ extra_css:
   - stylesheets/styles.css
 
 nav:
-  - Home: index.
+  - Home: index.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
@@ -65,6 +65,7 @@ nav:
   - Produto:
     - Documento de Arquitetura: produto/documento_arquitetura.md
     - Ferramentas: produto/ferramentas.md
+    - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
     - Documento de Banco de Dados: produto/banco_de_dados.md
     - Guia de estilo: produto/guia_de_estilo.md
@@ -115,6 +116,10 @@ nav:
       - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
       - Reunião Pareamento 20/10: reunioes/Sprint1/reuniao_Pareamento_20_10.md
       - Reunião Pareamento 21/10: reunioes/Sprint1/reuniao_Pareamento_21_10.md
+  - Monitoramento:
+      - Agile EVM: monitoramento/EVM.md
+      - Burndown de Riscos: monitoramento/burndown-riscos.md
+      - Analytics: monitoramento/analytics.md    
 
 plugins:
   - search
