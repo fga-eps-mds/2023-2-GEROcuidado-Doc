@@ -68,12 +68,14 @@ nav:
     - Guia de estilo: produto/guia_de_estilo.md
     - Documento de Banco de Dados: produto/banco_de_dados.md
   - Treinamentos:
+    - Cronograma Dojos: treinamentos/cronograma_dojos.md
     - Treinamento de Linux: treinamentos/treinamento_linux.md
     - Treinamento de Git: treinamentos/treinamento_git.md
     - Treinamento de Metodologias Ágeis: treinamentos/treinamento_metodologias_ageis.md
     - Treinamento de Javascript: treinamentos/treinamento_javascript.md
     - Treinamento de SQL: treinamentos/treinamento_SQL.md
     - Treinamento de HTML CSS: treinamentos/treinamento_HTML_CSS.md
+    - Treinamento de Docker: treinamentos/treinamento_docker.md
   - Reuniões:
     - Semana 1:
       - Reunião EPS 04/09: reunioes/Semana_1/reuniao_EPS_04_09.md
@@ -98,6 +100,11 @@ nav:
       - Reunião EPS 09/10: reunioes/Semana_6/reuniao_EPS_09_10.md
       - Reunião PO 11/10: reunioes/Semana_6/reuniao_PO_11_10.md
       - Reunião Banco de Dados 11/10: reunioes/Semana_6/reuniao_EPS_MDS_Banco_de_Dados11_10.md
+    - Sprint 1:
+      - Planning: reunioes/Sprint_1/planning.md
+      - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
+      - Reunião Pareamento 20/10: reunioes/Sprint1/reuniao_Pareamento_20_10.md
+      - Reunião Pareamento 21/10: reunioes/Sprint1/reuniao_Pareamento_21_10.md
 
 plugins:
   - search
