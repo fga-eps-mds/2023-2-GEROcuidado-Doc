@@ -53,6 +53,7 @@ nav:
   - Planejamento:
     - Quadro de disponibilidade: planejamento/quadro_de_disponibilidade.md
     - Quadro de conhecimento: planejamento/quadro_conhecimento.md
+    - Quadro de pareamento: planejamento/quadro_de_disponibilidade.md
     - Plano de contribuição: planejamento/plano_de_contribuicao.md  
     - Plano de comunicação: planejamento/plano_de_comunicacao.md
     - Plano de custos: planejamento/plano_de_custos.md
@@ -60,7 +61,9 @@ nav:
     - Plano de gerenciamento de risco: planejamento/gerenciamento_de_riscos.md
     - Padrões da comunidade: planejamento/padroes_da_comunidade.md
     - Metodologias: planejamento/metodologia.md
+    - Estrutura Analítica do Projeto: planejamento/eap.md
   - Produto:
+    - Documento de Arquitetura: produto/documento_arquitetura.md
     - Ferramentas: produto/ferramentas.md
     - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
