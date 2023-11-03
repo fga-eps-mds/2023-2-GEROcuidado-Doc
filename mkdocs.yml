@@ -116,6 +116,13 @@ nav:
       - Reunião PO 18/10: reunioes/Sprint_1/reuniao_PO_18_10.md
       - Reunião Pareamento 20/10: reunioes/Sprint1/reuniao_Pareamento_20_10.md
       - Reunião Pareamento 21/10: reunioes/Sprint1/reuniao_Pareamento_21_10.md
+    - Sprint 2:
+      - Planning: reunioes/Sprint_2/planning_sprint_2.md
+      - Review: reunioes/Sprint_2/review.md
+    - Sprint 3:
+      - Planning: reunioes/Sprint_3/planning.md
+      - Reunião PO 01/11: reunioes/Sprint_3/reuniao_PO_01_11.md
+
   - Monitoramento:
       - Agile EVM: monitoramento/EVM.md
       - Burndown de Riscos: monitoramento/burndown-riscos.md
