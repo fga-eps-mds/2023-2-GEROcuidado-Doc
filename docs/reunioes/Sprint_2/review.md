@@ -26,18 +26,6 @@
 **Pontuação Planejada:** 42;<br>
 **Pontuação Concluída:** 42.<br>
 
-### Burndown
-
-![Burndown Report](../assets/imagens/sprints/sprint5/burndown-report.png)
-
-<center>[Figura 1: Burndown Report gerado pelo Zenhub](../assets/imagens/sprints/sprint5/burndown-report.png)</center>
-
-### Velocity
-
-![Velocity Report](../assets/imagens/sprints/sprint5/velocity-report.png)
-
-<center>[Figura 2: Velocity Report gerado pelo Zenhub](../assets/imagens/sprints/sprint5/velocity-report.png)</center>
-
 ## 4. Retrospective
 
 ### Pontos Positivo
