@@ -21,23 +21,23 @@ A Sprint 1 tem como objetivo:
 ### Desenvolvimento 
 
 1. **Issue:** [#88 [US] [US-01] CRUD de usuário ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)<br>
-**Responsáveis:** Lorem ipsum, Lorem ipsum, Lorem ipsum<br>
+**Responsáveis:** Henrique Amorim, Pedro Cella, Arthur Talles, Guilherme Westphall, Pedro Cruz, Julio Roberto<br>
 **Pontuação:** 21
 
 2. **Issue:** [#111 [US] [US-02] CRUD de publicação do fórum ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/111)<br>
-**Responsáveis:** Lorem ipsum, Lorem ipsum, Lorem ipsum<br>
+**Responsáveis:** Eduardo Gurgel, Gustavo Afonso, Guilherme Dutra, Lucas Martins, Hugo Queiroz, Gabryel Nícolas<br>
 **Pontuação:** 21
 
 ### Demais
 
 1. **Issue:** [#39 Quadro de pareamento ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/39)<br>
-**Responsáveis:** Lorem ipsum, Lorem ipsum, Lorem ipsum<br>
+**Responsáveis:** Eduardo Gurgel e Pedro Cella<br>
 
 2. **Issue:** [#50 Treinamento de React Native  ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/50)<br>
-**Responsáveis:** Lorem ipsum, Lorem ipsum, Lorem ipsum<br>
+**Responsáveis:** Todos<br>
 
 3. **Issue:** [#70 Incremento Plano de custo ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/70)<br>
-**Responsáveis:** Eduardo<br>
+**Responsáveis:** Eduardo e Arthur Talles<br>
 
 4. **Issue:** [#84 Treinamento de NestJS  ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/84)<br>
 **Responsáveis:** Henrique<br>
