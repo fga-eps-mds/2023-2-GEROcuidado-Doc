@@ -1,4 +1,4 @@
-## ATA de Reunião (15/11):
+## ATA de Reunião (22/11):
 
 ## Pauta
 
@@ -7,21 +7,27 @@
     <li>Apresentador: Lucas Martins</li>
     <li>Resultado: Foi apresentado o roadmap do projeto, a US da semana anterior e as US's da sprint iniciada.</li>
   </ul>
-- **Demonstração e validação dos critérios de aceitação da US-05 - CRUD de Idoso**
+- **Melhorias realizadas e validação dos critérios de aceitação - CRUD de publicação do fórum - US-02**
   <ul>
-    <li>Apresentador: Pedro Cella</li>
-    <li>Resultado: Critérios foram aceitos.</li>
+    <li>Apresentador: Guilherme Dutra</li>
+    <li>Resultado: Melhorias realizadas e apresentadas.</li>
   </ul>
-- **Confirmação de validação dos critérios de aceitação da US-04 - CRUD de rotina**
+- **Validação dos critérios de aceitação - CRUD de Idoso - US-05**
   <ul>
-    <li>Apresentador: Pedro Cella e Lucas Martins</li>
-    <li>Resultado: Um dos critérios ficou de ser avaliado pelo time da Enactus os demais validados.</li>
+    <li>Apresentador: Guilherme Westphall</li>
+    <li>Resultado: Todos os critérios foram validados e aceitos.</li>
   </ul>
 
-- **Validação dos critérios de aceitação da US-07 - Agenda/calendário**
+- **Validar visualização das rotinas, como deve ser feita a edição e visualização das rotinas quando o usuário clica em uma rotina. Foi o único critério que eles ficaram de se reunir e dar um posicionamento.**
   <ul>
-    <li>Apresentador: Julio Roberto</li>
-    <li>Resultado: Critérios validados.</li>
+    <li>Apresentador: Gustavo</li>
+    <li>Resultado: Foi estabelecido que não exisitira a tela de visualizar apenas uma rotina.</li>
+  </ul>
+
+- **Validar US-06 - Criação das notificações - entender melhor as notificações**
+    <ul>
+    <li>Apresentador: Henrique</li>
+    <li>Resultado: Foi apenas explicado aos membros do Enactus sobre a forma como seria estilizado as notificações.</li>
   </ul>
 
 | <b>Presentes na Reunião (11/10)</b> | <b>Equipe Pertencente</b> | <b>Info</b> |

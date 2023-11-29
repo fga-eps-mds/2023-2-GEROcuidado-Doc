@@ -17,8 +17,8 @@
 
 ## 3. Resultados
 
-**Pontuação Planejada:** <br>
-**Pontuação Concluída:** <br>
+**Pontuação Planejada: 21** <br>
+**Pontuação Concluída: 0** <br>
 
 ## 4. Retrospective
 

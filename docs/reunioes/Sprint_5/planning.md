@@ -15,15 +15,16 @@ A Sprint 5 tem como objetivo:
 - Entrega dos testes da US-05;
 
 ### Total de Pontuação Planejada
- - Y pontos de issues.
+
+- 21 pontos de issues.
 
 ## 3. Backlog da Sprint
 
-### Desenvolvimento 
+### Desenvolvimento
 
 1. **Issue:** [#114 [US-04] Criação do CRUD de Rotina ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/114)<br>
    **Responsáveis:** Eduardo, Gustavo, Hugo, Lucas e Guilherme Dutra <br>
-   **Pontuação:** 
+   **Pontuação: 21**
 
 ### Demais
 

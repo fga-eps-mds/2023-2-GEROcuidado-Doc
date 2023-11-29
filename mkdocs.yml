@@ -130,8 +130,12 @@ nav:
       - Planning: reunioes/Sprint_5/planning.md
       - Reunião PO 15/11: reunioes/Sprint_5/reuniao_PO_15_11.md
       - Review: reunioes/Sprint_5/review.md
-
-
+    - Sprint 6:
+      - Planning: reunioes/Sprint_6/planning.md
+      - Reunião PO 15/11: reunioes/Sprint_6/reuniao_PO_22_11.md
+      - Review: reunioes/Sprint_6/review.md
+    - Sprint 7:
+      - Planning: reunioes/Sprint_7/planning.md
   - Monitoramento:
       - Agile EVM: monitoramento/EVM.md
       - Burndown de Riscos: monitoramento/burndown-riscos.md
