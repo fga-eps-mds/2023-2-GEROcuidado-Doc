@@ -67,7 +67,7 @@ A documentação local poderá ser acessada por: http://127.0.0.1:8000/ ou http:
 |MDS|221022570|Gabryel Nícolas Soares de Sousa|[gabryelns](https://github.com/gabryelns)|
 |MDS|221021993|Hugo Queiroz Camelo de Melo|[melohugo](https://github.com/melohugo)|
 |MDS|221022041|Julio Roberto da Silva Neto|[JulioR2022](https://github.com/JulioR2022)|
-|MDS|221022088|Lucas Martins Gabriel|[W4RT1N5](https://github.com/W4RT1N5)|
+|MDS|221022088|Lucas Martins Gabriel|[martinsglucas](https://github.com/martinsglucas)|
 |MDS|212005444|Pedro Fonseca Cruz|[pfc15](https://github.com/pfc15)|
 
 ## Licença
