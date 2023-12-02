@@ -99,7 +99,7 @@ A equipe é composta por 12 membros ao todo, sendo 5 de EPS e 7 de MDS, afim de 
 
   <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
     <div style="width: 200px; height: 200px">
-      <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/W4RT1N5?v=4"/>
+      <img style="border-radius: 50%; border: 3px solid #3f6ec6" src="https://avatars.githubusercontent.com/martinsglucas?v=4"/>
     </div>
     <label>Lucas Martins Gabriel</label>
   </div>
