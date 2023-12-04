@@ -1,0 +1,4382 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 90
+    },
+    "baseComponent": {
+        "id": "AYw1d8aP8PW4JjJfegKR",
+        "key": "fga-eps-mds_2023-2-GEROcuidado-Front",
+        "name": "2023-2-GEROcuidado-Front",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "comment_lines_density",
+                "value": "0.0",
+                "bestValue": false
+            },
+            {
+                "metric": "complexity",
+                "value": "352"
+            },
+            {
+                "metric": "coverage",
+                "value": "72.5",
+                "bestValue": false
+            },
+            {
+                "metric": "duplicated_lines_density",
+                "value": "15.8",
+                "bestValue": false
+            },
+            {
+                "metric": "files",
+                "value": "41"
+            },
+            {
+                "metric": "functions",
+                "value": "202"
+            },
+            {
+                "metric": "ncloc",
+                "value": "4390"
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "test_errors",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "test_execution_time",
+                "value": "6597"
+            },
+            {
+                "metric": "test_failures",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "tests",
+                "value": "106"
+            }
+        ],
+        "branch": "release-metrica-3"
+    },
+    "components": [
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpd",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__",
+            "name": "__tests__",
+            "qualifier": "DIR",
+            "path": "src/app/__tests__",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "6418"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "105"
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp2",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/__tests__",
+            "name": "__tests__",
+            "qualifier": "DIR",
+            "path": "src/app/components/__tests__",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "179"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpn",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/public/_layout.tsx",
+            "name": "_layout.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/public/_layout.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "14"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqA",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs/_layout.tsx",
+            "name": "_layout.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/tabs/_layout.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "10"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "6"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "84"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqG",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/_layout.tsx",
+            "name": "_layout.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/_layout.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "14"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpU",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/BackButton.spec.tsx",
+            "name": "BackButton.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/BackButton.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "153"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp0",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/BackButton.tsx",
+            "name": "BackButton.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/BackButton.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "94.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "42"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpT",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/BarraPesquisa.spec.tsx",
+            "name": "BarraPesquisa.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/BarraPesquisa.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "188"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpv",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/BarraPesquisa.tsx",
+            "name": "BarraPesquisa.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/BarraPesquisa.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "42"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM6",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/cadastrarIdoso.spec.tsx",
+            "name": "cadastrarIdoso.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/cadastrarIdoso.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "84"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqH",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/cadastrarIdoso.tsx",
+            "name": "cadastrarIdoso.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/cadastrarIdoso.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "18"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "50.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "72.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "10"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "308"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpW",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/cadastro.spec.tsx",
+            "name": "cadastro.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/cadastro.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "375"
+                },
+                {
+                    "metric": "tests",
+                    "value": "7"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpo",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/public/cadastro.tsx",
+            "name": "cadastro.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/public/cadastro.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "20"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "14.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "6"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "248"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpC",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/CardIdoso.spec.tsx",
+            "name": "CardIdoso.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/CardIdoso.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "197"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp6",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/CardIdoso.tsx",
+            "name": "CardIdoso.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/CardIdoso.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "1.2",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "90.9",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "84"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp9",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components",
+            "name": "components",
+            "qualifier": "DIR",
+            "path": "src/app/components",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "64"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "88.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "3.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "15"
+                },
+                {
+                    "metric": "functions",
+                    "value": "39"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "935"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "179"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM_",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/criaPublicacao.spec.tsx",
+            "name": "criaPublicacao.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/criaPublicacao.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "76"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqF",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/criaPublicacao.tsx",
+            "name": "criaPublicacao.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/criaPublicacao.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "58.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "35.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "8"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "207"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpZ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/CustomButton.spec.tsx",
+            "name": "CustomButton.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/CustomButton.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "179"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpz",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/CustomButton.tsx",
+            "name": "CustomButton.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/CustomButton.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "46"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM-",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/editarIdoso.spec.tsx",
+            "name": "editarIdoso.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/editarIdoso.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "119"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqL",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/editarIdoso.tsx",
+            "name": "editarIdoso.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/editarIdoso.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "49.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "57.2",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "15"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "385"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM4",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/editarPerfil.spec.tsx",
+            "name": "editarPerfil.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/editarPerfil.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "273"
+                },
+                {
+                    "metric": "tests",
+                    "value": "6"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqK",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/editarPerfil.tsx",
+            "name": "editarPerfil.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/editarPerfil.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "72.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "8"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "203"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM8",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/editarPublicacao.spec.tsx",
+            "name": "editarPublicacao.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/editarPublicacao.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "77"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqJ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/editarPublicacao.tsx",
+            "name": "editarPublicacao.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/editarPublicacao.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "56.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "30.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "8"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "235"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpS",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/EmConstrucao.spec.tsx",
+            "name": "EmConstrucao.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/EmConstrucao.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "213"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpw",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/EmConstrucao.tsx",
+            "name": "EmConstrucao.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/EmConstrucao.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "31"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpa",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/ErrorMessage.spec.tsx",
+            "name": "ErrorMessage.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/ErrorMessage.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "177"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp4",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/ErrorMessage.tsx",
+            "name": "ErrorMessage.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/ErrorMessage.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "2"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "21"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpj",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/interfaces/forum.interface.ts",
+            "name": "forum.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/app/interfaces/forum.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "33"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpR",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/forum.service.spec.tsx",
+            "name": "forum.service.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/forum.service.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "14"
+                },
+                {
+                    "metric": "tests",
+                    "value": "8"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpf",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/services/forum.service.ts",
+            "name": "forum.service.ts",
+            "qualifier": "FIL",
+            "path": "src/app/services/forum.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "88.9",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "88"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpV",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/forum.spec.tsx",
+            "name": "forum.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/forum.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "79"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqB",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs/forum.tsx",
+            "name": "forum.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/tabs/forum.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "31"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "53.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "18"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "293"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpi",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/interfaces/idoso.interface.ts",
+            "name": "idoso.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/app/interfaces/idoso.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "31"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpO",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/idoso.service.spec.tsx",
+            "name": "idoso.service.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/idoso.service.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "12"
+                },
+                {
+                    "metric": "tests",
+                    "value": "8"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpg",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/services/idoso.service.ts",
+            "name": "idoso.service.ts",
+            "qualifier": "FIL",
+            "path": "src/app/services/idoso.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "94.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "83"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpJ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/image.helper.spec.tsx",
+            "name": "image.helper.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/image.helper.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "3"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqO",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/shared/helpers/image.helper.ts",
+            "name": "image.helper.ts",
+            "qualifier": "FIL",
+            "path": "src/app/shared/helpers/image.helper.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "15"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpN",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/index.spec.tsx",
+            "name": "index.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/index.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "65"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqQ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/index.tsx",
+            "name": "index.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/index.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "32"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpm",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/interfaces",
+            "name": "interfaces",
+            "qualifier": "DIR",
+            "path": "src/app/interfaces",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "4"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "80"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpH",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/ItemTutorial.spec.tsx",
+            "name": "ItemTutorial.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/ItemTutorial.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "136"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwps",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/ItemTutorial.tsx",
+            "name": "ItemTutorial.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/ItemTutorial.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "26"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM9",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/layoutPages.spec.tsx",
+            "name": "layoutPages.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/layoutPages.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "307"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpX",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/LinkButton.spec.tsx",
+            "name": "LinkButton.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/LinkButton.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "39"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp3",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/LinkButton.tsx",
+            "name": "LinkButton.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/LinkButton.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "39"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM3",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/listarIdosos.spec.tsx",
+            "name": "listarIdosos.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/listarIdosos.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "981"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqI",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/listarIdosos.tsx",
+            "name": "listarIdosos.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/listarIdosos.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "86.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "13"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "259"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpG",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/Loading.spec.tsx",
+            "name": "Loading.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/Loading.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "163"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp8",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/Loading.tsx",
+            "name": "Loading.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/Loading.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "21"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpP",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/login-success.spec.tsx",
+            "name": "login-success.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/login-success.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "121"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpI",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/login.spec.tsx",
+            "name": "login.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/login.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "602"
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpp",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/public/login.tsx",
+            "name": "login.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/public/login.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "12"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "96.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "13.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "7"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "237"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp1",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/__tests__/ModalConfirmation.spec.tsx",
+            "name": "ModalConfirmation.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/components/__tests__/ModalConfirmation.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "179"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpD",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/ModalConfirmation.spec.tsx",
+            "name": "ModalConfirmation.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/ModalConfirmation.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "196"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp7",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/ModalConfirmation.tsx",
+            "name": "ModalConfirmation.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/ModalConfirmation.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "3"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "97"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpY",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/NaoAutenticado.spec.tsx",
+            "name": "NaoAutenticado.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/NaoAutenticado.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "30"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpt",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/NaoAutenticado.tsx",
+            "name": "NaoAutenticado.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/NaoAutenticado.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "33"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqM",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages",
+            "name": "pages",
+            "qualifier": "DIR",
+            "path": "src/app/private/pages",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "151"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "57.8",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "30.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "8"
+                },
+                {
+                    "metric": "functions",
+                    "value": "84"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "1905"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpb",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/perfil.spec.tsx",
+            "name": "perfil.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/perfil.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "437"
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqC",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs/perfil.tsx",
+            "name": "perfil.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/tabs/perfil.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "16"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "97.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "11.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "13"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "159"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqN",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private",
+            "name": "private",
+            "qualifier": "DIR",
+            "path": "src/app/private",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "218"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "58.6",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "24.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "13"
+                },
+                {
+                    "metric": "functions",
+                    "value": "129"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "2473"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpr",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/public",
+            "name": "public",
+            "qualifier": "DIR",
+            "path": "src/app/public",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "38"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "98.1",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "11.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "4"
+                },
+                {
+                    "metric": "functions",
+                    "value": "18"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "589"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpL",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/Publicacao.spec.tsx",
+            "name": "Publicacao.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/Publicacao.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "57"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpu",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/Publicacao.tsx",
+            "name": "Publicacao.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/Publicacao.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "17"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "79.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "8.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "8"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "166"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpE",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/PublicacaoVisualizar.spec.tsx",
+            "name": "PublicacaoVisualizar.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/PublicacaoVisualizar.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "166"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpy",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/PublicacaoVisualizar.tsx",
+            "name": "PublicacaoVisualizar.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/PublicacaoVisualizar.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "70.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "13.8",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "136"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpM",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/registros.spec.tsx",
+            "name": "registros.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/registros.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "42"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp-",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs/registros.tsx",
+            "name": "registros.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/tabs/registros.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "16"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpQ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/response.interface.spec.tsx",
+            "name": "response.interface.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/response.interface.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "3"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpl",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/interfaces/response.interface.ts",
+            "name": "response.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/app/interfaces/response.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "4"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpB",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/rotinas.spec.tsx",
+            "name": "rotinas.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/rotinas.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "51"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp_",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs/rotinas.tsx",
+            "name": "rotinas.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/tabs/rotinas.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "16"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwph",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/services",
+            "name": "services",
+            "qualifier": "DIR",
+            "path": "src/app/services",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "94.8",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "3"
+                },
+                {
+                    "metric": "functions",
+                    "value": "13"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "266"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqP",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/shared/helpers",
+            "name": "shared/helpers",
+            "qualifier": "DIR",
+            "path": "src/app/shared/helpers",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "15"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqR",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app",
+            "name": "src/app",
+            "qualifier": "DIR",
+            "path": "src/app",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "352"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "72.5",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "15.8",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "41"
+                },
+                {
+                    "metric": "functions",
+                    "value": "202"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "4390"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "6597"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "106"
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqD",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/tabs",
+            "name": "tabs",
+            "qualifier": "DIR",
+            "path": "src/app/private/tabs",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "67"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "61.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "3.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "5"
+                },
+                {
+                    "metric": "functions",
+                    "value": "45"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "568"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpF",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/tutorial.spec.tsx",
+            "name": "tutorial.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/tutorial.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "226"
+                },
+                {
+                    "metric": "tests",
+                    "value": "4"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpq",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/public/tutorial.tsx",
+            "name": "tutorial.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/public/tutorial.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "91.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "90"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpc",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/UploadImage.spec.tsx",
+            "name": "UploadImage.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/UploadImage.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "227"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpx",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/UploadImage.tsx",
+            "name": "UploadImage.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/UploadImage.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "93.3",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "72"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM5",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/UploadImageV2.spec.tsx",
+            "name": "UploadImageV2.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/UploadImageV2.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "204"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwp5",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/components/UploadImageV2.tsx",
+            "name": "UploadImageV2.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/components/UploadImageV2.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "93.8",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "79"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpk",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/interfaces/user.interface.ts",
+            "name": "user.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/app/interfaces/user.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "12"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpK",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/user.service.spec.tsx",
+            "name": "user.service.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/user.service.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "20"
+                },
+                {
+                    "metric": "tests",
+                    "value": "10"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwpe",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/services/user.service.ts",
+            "name": "user.service.ts",
+            "qualifier": "FIL",
+            "path": "src/app/services/user.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "10"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "5"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "95"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1jnXcS0MG9AC-YLM7",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/__tests__/visualizarPublicacao.spec.tsx",
+            "name": "visualizarPublicacao.spec.tsx",
+            "qualifier": "UTS",
+            "path": "src/app/__tests__/visualizarPublicacao.spec.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "126"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        },
+        {
+            "id": "AYw1d8fjvs-zeIUQIwqE",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-Front:src/app/private/pages/visualizarPublicacao.tsx",
+            "name": "visualizarPublicacao.tsx",
+            "qualifier": "FIL",
+            "path": "src/app/private/pages/visualizarPublicacao.tsx",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "39"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "51.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "21"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "294"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-metrica-3"
+        }
+    ]
+}
