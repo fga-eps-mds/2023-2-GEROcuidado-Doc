@@ -1,0 +1,3029 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "total": 58
+    },
+    "baseComponent": {
+        "id": "AYwnJS5ntK1J2MkUwKkm",
+        "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum",
+        "name": "2023-2-GEROcuidado-APIForum",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "comment_lines_density",
+                "value": "0.0",
+                "bestValue": false
+            },
+            {
+                "metric": "complexity",
+                "value": "100"
+            },
+            {
+                "metric": "coverage",
+                "value": "99.4",
+                "bestValue": false
+            },
+            {
+                "metric": "duplicated_lines_density",
+                "value": "0.0",
+                "bestValue": true
+            },
+            {
+                "metric": "files",
+                "value": "25"
+            },
+            {
+                "metric": "functions",
+                "value": "59"
+            },
+            {
+                "metric": "ncloc",
+                "value": "623"
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "test_errors",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "test_execution_time",
+                "value": "155"
+            },
+            {
+                "metric": "test_failures",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "tests",
+                "value": "92"
+            }
+        ],
+        "branch": "release-sonar"
+    },
+    "components": [
+        {
+            "id": "AYwnJTCoemBockJPABFp",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/filters/all-exceptions.filter.spec.ts",
+            "name": "all-exceptions.filter.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/filters/all-exceptions.filter.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "4"
+                },
+                {
+                    "metric": "tests",
+                    "value": "4"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFr",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/filters/all-exceptions.filter.ts",
+            "name": "all-exceptions.filter.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/filters/all-exceptions.filter.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "33"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwy9NSmFA3jxtczQxBv",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/autenticacao.guard.spec.ts",
+            "name": "autenticacao.guard.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/autenticacao.guard.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "21"
+                },
+                {
+                    "metric": "tests",
+                    "value": "4"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwy9NSmFA3jxtczQxBw",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/autenticacao.guard.ts",
+            "name": "autenticacao.guard.ts",
+            "qualifier": "FIL",
+            "path": "src/autenticacao.guard.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "95.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "36"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFQ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/buffer-to-image.spec.ts",
+            "name": "buffer-to-image.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/helpers/buffer-to-image.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "4"
+                },
+                {
+                    "metric": "tests",
+                    "value": "7"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFO",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/buffer-to-image.ts",
+            "name": "buffer-to-image.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/helpers/buffer-to-image.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "12"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzY",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/classes/categoria-publicacao.enum.ts",
+            "name": "categoria-publicacao.enum.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/classes/categoria-publicacao.enum.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "6"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFX",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/classes",
+            "name": "classes",
+            "qualifier": "DIR",
+            "path": "src/shared/classes",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "5"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "25"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "5"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzZ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/classes",
+            "name": "classes",
+            "qualifier": "DIR",
+            "path": "src/publicacao/classes",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "6"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFT",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/commons.spec.ts",
+            "name": "commons.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/helpers/commons.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "5"
+                },
+                {
+                    "metric": "tests",
+                    "value": "6"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFP",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/commons.ts",
+            "name": "commons.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/helpers/commons.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "23"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABGC",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/config/db",
+            "name": "config/db",
+            "qualifier": "DIR",
+            "path": "src/config/db",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "26"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "16"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzU",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/dto/create-publicacao.dto.ts",
+            "name": "create-publicacao.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/dto/create-publicacao.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "34"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFm",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/interceptors/data-transform.interceptor.spec.ts",
+            "name": "data-transform.interceptor.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/interceptors/data-transform.interceptor.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "6"
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFn",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/interceptors/data-transform.interceptor.ts",
+            "name": "data-transform.interceptor.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/interceptors/data-transform.interceptor.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "39"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABGB",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/config/db/db.service.spec.ts",
+            "name": "db.service.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/config/db/db.service.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "16"
+                },
+                {
+                    "metric": "tests",
+                    "value": "3"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABGA",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/config/db/db.service.ts",
+            "name": "db.service.ts",
+            "qualifier": "FIL",
+            "path": "src/config/db/db.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "2"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "26"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFl",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators",
+            "name": "decorators",
+            "qualifier": "DIR",
+            "path": "src/shared/decorators",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "25"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "5"
+                },
+                {
+                    "metric": "functions",
+                    "value": "14"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "118"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "25"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "27"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzW",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/dto",
+            "name": "dto",
+            "qualifier": "DIR",
+            "path": "src/publicacao/dto",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "2"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "37"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzb",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/entities",
+            "name": "entities",
+            "qualifier": "DIR",
+            "path": "src/publicacao/entities",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "27"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFt",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/filters",
+            "name": "filters",
+            "qualifier": "DIR",
+            "path": "src/shared/filters",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "2"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "47"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "7"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "6"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFe",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/filtrate-string.decorator.ts",
+            "name": "filtrate-string.decorator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/decorators/filtrate-string.decorator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "21"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFi",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/filtrate-string.spec.ts",
+            "name": "filtrate-string.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/decorators/filtrate-string.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "5"
+                },
+                {
+                    "metric": "tests",
+                    "value": "7"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFf",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/filtrate.decorator.spec.ts",
+            "name": "filtrate.decorator.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/decorators/filtrate.decorator.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "6"
+                },
+                {
+                    "metric": "tests",
+                    "value": "7"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFd",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/filtrate.decorator.ts",
+            "name": "filtrate.decorator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/decorators/filtrate.decorator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "4"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "24"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFU",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers",
+            "name": "helpers",
+            "qualifier": "DIR",
+            "path": "src/shared/helpers",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "26"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "4"
+                },
+                {
+                    "metric": "functions",
+                    "value": "13"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "76"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "14"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "27"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFW",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/classes/http-response.spec.ts",
+            "name": "http-response.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/classes/http-response.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "5"
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFV",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/classes/http-response.ts",
+            "name": "http-response.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/classes/http-response.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "5"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "5"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "25"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFY",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/validators/id.validator.spec.ts",
+            "name": "id.validator.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/validators/id.validator.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "1"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFZ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/validators/id.validator.ts",
+            "name": "id.validator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/validators/id.validator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "6"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFo",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/interceptors",
+            "name": "interceptors",
+            "qualifier": "DIR",
+            "path": "src/shared/interceptors",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "9"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "39"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "6"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "5"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzT",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/interface",
+            "name": "interface",
+            "qualifier": "DIR",
+            "path": "src/publicacao/interface",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "2"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "19"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFv",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/interfaces",
+            "name": "interfaces",
+            "qualifier": "DIR",
+            "path": "src/shared/interfaces",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "5"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFq",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/filters/model-not-found.exception-filter.spec.ts",
+            "name": "model-not-found.exception-filter.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/filters/model-not-found.exception-filter.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "3"
+                },
+                {
+                    "metric": "tests",
+                    "value": "2"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFs",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/filters/model-not-found.exception-filter.ts",
+            "name": "model-not-found.exception-filter.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/filters/model-not-found.exception-filter.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "14"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFj",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/ordenate.decorator.spec.ts",
+            "name": "ordenate.decorator.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/decorators/ordenate.decorator.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "7"
+                },
+                {
+                    "metric": "tests",
+                    "value": "8"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFk",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/ordenate.decorator.ts",
+            "name": "ordenate.decorator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/decorators/ordenate.decorator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "8"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "3"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "38"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFb",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/paginate.decorator.spec.ts",
+            "name": "paginate.decorator.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/decorators/paginate.decorator.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "5"
+                },
+                {
+                    "metric": "tests",
+                    "value": "4"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFg",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/paginate.decorator.ts",
+            "name": "paginate.decorator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/decorators/paginate.decorator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "7"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "4"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "32"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwy7g1uLQr7WG4f8q0Z",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/public-route.decorator.ts",
+            "name": "public-route.decorator.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/decorators/public-route.decorator.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "3"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwy9NSmFA3jxtczQxBu",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/decorators/public-route.spec.ts",
+            "name": "public-route.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/decorators/public-route.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "2"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOze",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao",
+            "name": "publicacao",
+            "qualifier": "DIR",
+            "path": "src/publicacao",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "19"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "98.7",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "8"
+                },
+                {
+                    "metric": "functions",
+                    "value": "17"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "245"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "60"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "14"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzR",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/interface/publicacao-filter.interface.ts",
+            "name": "publicacao-filter.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/interface/publicacao-filter.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "7"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzS",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/interface/publicacao-usuario.interface.ts",
+            "name": "publicacao-usuario.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/interface/publicacao-usuario.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "12"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzd",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/publicacao.controller.spec.ts",
+            "name": "publicacao.controller.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/publicacao/publicacao.controller.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "28"
+                },
+                {
+                    "metric": "tests",
+                    "value": "6"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzQ",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/publicacao.controller.ts",
+            "name": "publicacao.controller.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/publicacao.controller.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "6"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "6"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "59"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOza",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/entities/publicacao.entity.ts",
+            "name": "publicacao.entity.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/entities/publicacao.entity.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "27"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzc",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/publicacao.service.spec.ts",
+            "name": "publicacao.service.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/publicacao/publicacao.service.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "32"
+                },
+                {
+                    "metric": "tests",
+                    "value": "8"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzX",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/publicacao.service.ts",
+            "name": "publicacao.service.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/publicacao.service.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "12"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "10"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "97"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFu",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/interfaces/response-paginate.interface.ts",
+            "name": "response-paginate.interface.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/interfaces/response-paginate.interface.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "5"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFw",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared",
+            "name": "shared",
+            "qualifier": "DIR",
+            "path": "src/shared",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "70"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "15"
+                },
+                {
+                    "metric": "functions",
+                    "value": "38"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "316"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "58"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "71"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFM",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/sql-query-helper.spec.ts",
+            "name": "sql-query-helper.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/helpers/sql-query-helper.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "4"
+                },
+                {
+                    "metric": "tests",
+                    "value": "13"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFN",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/sql-query-helper.ts",
+            "name": "sql-query-helper.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/helpers/sql-query-helper.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "13"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "5"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "37"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABGF",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src",
+            "name": "src",
+            "qualifier": "DIR",
+            "path": "src",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "100"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "99.4",
+                    "bestValue": false
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "25"
+                },
+                {
+                    "metric": "functions",
+                    "value": "59"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "623"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "155"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "92"
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFS",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/string-helpers.spec.ts",
+            "name": "string-helpers.spec.ts",
+            "qualifier": "UTS",
+            "path": "src/shared/helpers/string-helpers.spec.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "1"
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFR",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/helpers/string-helpers.ts",
+            "name": "string-helpers.ts",
+            "qualifier": "FIL",
+            "path": "src/shared/helpers/string-helpers.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "1"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "1"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "4"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwzCGrbQ9qo-hQ8AOzV",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/publicacao/dto/update-publicacao.dto.ts",
+            "name": "update-publicacao.dto.ts",
+            "qualifier": "FIL",
+            "path": "src/publicacao/dto/update-publicacao.dto.ts",
+            "language": "ts",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "3"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                }
+            ],
+            "branch": "release-sonar"
+        },
+        {
+            "id": "AYwnJTCoemBockJPABFa",
+            "key": "fga-eps-mds_2023-2-GEROcuidado-APIForum:src/shared/validators",
+            "name": "validators",
+            "qualifier": "DIR",
+            "path": "src/shared/validators",
+            "measures": [
+                {
+                    "metric": "comment_lines_density",
+                    "value": "0.0",
+                    "bestValue": false
+                },
+                {
+                    "metric": "complexity",
+                    "value": "0"
+                },
+                {
+                    "metric": "coverage",
+                    "value": "100.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "duplicated_lines_density",
+                    "value": "0.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "files",
+                    "value": "1"
+                },
+                {
+                    "metric": "functions",
+                    "value": "0"
+                },
+                {
+                    "metric": "ncloc",
+                    "value": "6"
+                },
+                {
+                    "metric": "security_rating",
+                    "value": "1.0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_errors",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "test_execution_time",
+                    "value": "1"
+                },
+                {
+                    "metric": "test_failures",
+                    "value": "0",
+                    "bestValue": true
+                },
+                {
+                    "metric": "tests",
+                    "value": "1"
+                }
+            ],
+            "branch": "release-sonar"
+        }
+    ]
+}
