@@ -2,7 +2,7 @@
 
 ## 1. Visão Geral
 
-**Número da Sprint:** 11;<br>
+**Número da Semana:** 11;<br>
 **Data de Início:** 14/11/2023;<br>
 **Data de Término:** 21/11/2023;<br>
 **Duração:** 7 dias;<br>
