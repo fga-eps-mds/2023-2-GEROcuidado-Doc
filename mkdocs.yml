@@ -67,9 +67,8 @@ nav:
     - Ferramentas: produto/ferramentas.md
     - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
-    - Documento de Banco de Dados: produto/banco_de_dados.md
-    - Guia de estilo: produto/guia_de_estilo.md
     - Protótipo: produto/prototipo.md
+    - Post Mortem: produto/post_mortem.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
