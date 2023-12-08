@@ -50,9 +50,9 @@ Um Dicionário de Dados é uma referência essencial em gerenciamento de dados. 
 
 ![USUARIO](../assets/imagens/banco_de_dados/dicionario_de_dados/USUARIO.png)
 
-### Paciente
+### Idoso
 
-![Paciente](../assets/imagens/banco_de_dados/dicionario_de_dados/PACIENTE.png)
+![Idoso](../assets/imagens/banco_de_dados/dicionario_de_dados/PACIENTE.png)
 
 ### Métricas de saúde
 
