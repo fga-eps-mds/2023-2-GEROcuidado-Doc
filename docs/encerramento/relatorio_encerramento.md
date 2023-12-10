@@ -4,13 +4,42 @@
 
 O presente documento tem como finalidade fazer uma analise comparativa entre o planejado e o executado durante o desenvolvimento do projeto.
 
+---
+
 ## Backlog
 
 ### Planejado
 
-### Executado
+#### MVP
+
+- [[US-01] CRUD de Usuario ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
+- [[US-02] CRUD de publicação do fórum](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/111)
+- [[US-03] Criação da moderação](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/107)
+- [[US-04] CRUD de rotina](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/114)
+- [[US-05] CRUD de Idosos](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/112)
+- [[US-06] Criação das notificações](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/110)
+- [[US-07] Adição da agenda calendário](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/177)
+- [[US-08] CRUD de informações de saúde do idoso](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/116)
+
+#### Incremento
+
+- [[US-09] Criação da interação com o fórum](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/109)
+- [[US-10] Senha (recuperação e indicadores)](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/113)
+
+### Executadas e Aceitas pelo Cliente
+
+- [[US-01] CRUD de Usuario ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
+- [[US-02] CRUD de publicação do fórum](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/111)
+- [[US-03] Criação da moderação](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/107)
+- [[US-04] CRUD de rotina](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/114)
+- [[US-05] CRUD de Idosos](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/112)
+- [[US-07] Adição da agenda calendário](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/177)
+
+---
 
 ## Custo
+
+---
 
 ## Qualidade
 
