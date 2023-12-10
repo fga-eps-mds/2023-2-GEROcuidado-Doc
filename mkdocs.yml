@@ -129,7 +129,11 @@ nav:
   - Monitoramento:
       - Agile EVM: monitoramento/EVM.md
       - Burndown de Riscos: monitoramento/burndown-riscos.md
-      - Analytics: monitoramento/analytics.md    
+      - Analytics: monitoramento/analytics.md
+
+  - Encerramento:
+      - Relatorio de encerramento do projeto: encerramento/relatorio_encerramento.md
+      - Postmortem: encerramento/postmortem.md
 
 plugins:
   - search
