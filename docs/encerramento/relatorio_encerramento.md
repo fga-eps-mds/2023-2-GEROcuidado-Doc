@@ -1,8 +1,8 @@
-# Relatorio de Encerramento
+# Relatório de Encerramento
 
 ## Introdução
 
-O presente documento tem como finalidade fazer uma analise comparativa entre o planejado e o executado durante o desenvolvimento do projeto.
+O presente documento tem como objetivo realizar uma análise comparativa entre o planejado e o efetivamente executado durante o desenvolvimento do projeto. Essa análise sintetiza alguns aspectos essenciais, a saber: backlog, custo, qualidade e riscos. Esse paralelo é fundamental para ilustrar a perspectiva inicial da equipe e o que foi efetivamente concluído ao longo da execução do projeto. Além disso, serve como um guia para futuros mantenedores do projeto, fornecendo insights cruciais sobre o planejamento e execução da solução apresentada.
 
 ---
 
@@ -12,7 +12,7 @@ O presente documento tem como finalidade fazer uma analise comparativa entre o p
 
 #### MVP
 
-- [[US-01] CRUD de Usuario ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
+- [[US-01] CRUD de Usuário](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
 - [[US-02] CRUD de publicação do fórum](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/111)
 - [[US-03] Criação da moderação](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/107)
 - [[US-04] CRUD de rotina](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/114)
@@ -28,7 +28,7 @@ O presente documento tem como finalidade fazer uma analise comparativa entre o p
 
 ### Executadas e Aceitas pelo Cliente
 
-- [[US-01] CRUD de Usuario ](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
+- [[US-01] CRUD de Usuário](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/88)
 - [[US-02] CRUD de publicação do fórum](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/111)
 - [[US-03] Criação da moderação](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/107)
 - [[US-04] CRUD de rotina](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/issues/114)
@@ -43,6 +43,21 @@ O presente documento tem como finalidade fazer uma analise comparativa entre o p
 
 ## Qualidade
 
+Com a finalidade de assegurar a qualidade do produto, em suas diversas nuances, foram tomadas diversas providências, como a validação semanal das entregas junto aos clientes, a validação dos protótipos, implementação de testes e claro os quesitos de qualidade estabelecidos na disciplina e detalhados no [notebook de análise](https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc/blob/main/Analytics/analytics.ipynb). Foi estabelecido como objetivo pelo time atingir 80% de cobertura de testes em todos os repositórios do projeto, 0 bugs e 0 falhas de segurança.
+
+O time atingiu essa meta, com exceção do repositório de frontend, tal fato se deve à falta de experiência prévia dos membros com testes de frontend e com a tecnologia escolhida para o mesmo, além de algumas falhas ao executar desde a primeira sprint os testes de frontend de maneira correta.
+
+Os demais repositórios atingiram e até superaram a expectativa de testes e qualidade proposta pela equipe.
+
+### Resumo da análise em 10/12/23
+
+| Repositório | Cobertura | Duplicações | Bugs | Code Smells |
+|-------------|-----------|-------------|------|-------------|
+| Front       | 60.9%     | 15.08%      | 1    | 23          |
+| APIForum    | 99.4%     | 0.0%        | 0    | 7           |
+| APISaude    | 99.3%     | 0.0%        | 0    | 7           |
+| APIUsuario  | 99.2%     | 0.0%        | 0    | 9           |
+
 ---
 
 ## Risco
@@ -53,49 +68,49 @@ O presente documento tem como finalidade fazer uma analise comparativa entre o p
 
 - Falta de cliente real
 
-- Mudanca dos reponsaveis pelo projeto
+- Mudança dos responsáveis pelo projeto
 
 - Indisponibilidade do cliente 
 
 - Projeto cancelado
 
-- Ausencia do professor na disciplina por motivos de saude
+- Ausência do professor na disciplina por motivos de saúde
 
 #### Organizacional
 
-- Divergencia de horarios dos membros da equipes
+- Divergência de horários dos membros da equipes
 
-- Desistencias da disciplina 
+- Desistências da disciplina 
 
-- Dependecias de atividades
+- Dependências de atividades
 
-#### Tecnicos 
+#### Técnicos 
 
 - Dificuldades com as tecnologias 
 
-- Alteracoes das tecnologias 
+- Alterações das tecnologias 
 
 #### Gerencia
 
-- Alteracoes de escopo
+- Alterações de escopo
 
-- Presencas dos membros nas reunioes
+- Presenças dos membros nas reuniões
 
-- Baixa produtividade dos mebros 
+- Baixa produtividade dos membros 
 
-- Problemas de comunicacao 
+- Problemas de comunicação 
 
 - Cronograma
 
 ### Riscos Enfrentados
 
-- Desistencia de um mebro da equipe
+- Desistência de um membro da equipe
 
-- Dificuldade da equipe com novas tecnologias, resultando em uma participacao mais ativa no frontend
+- Dificuldade da equipe com novas tecnologias, resultando em uma participação mais ativa no frontend
 
-- Divergencia de horarios, resultando em dificuldades para realizar pareamentos
+- Divergência de horários, resultando em dificuldades para realizar pareamentos
 
-- Dificuldade na comunicacao entre os membros do grupo, resultando na centralizacao das comunicacoes em apenas 1 pessoa
+- Dificuldade na comunicação entre os membros do grupo, resultando na centralização das comunicações em apenas 1 pessoa
 
 ---
 
