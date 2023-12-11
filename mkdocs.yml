@@ -67,8 +67,6 @@ nav:
     - Ferramentas: produto/ferramentas.md
     - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
-    - Documento de Banco de Dados: produto/banco_de_dados.md
-    - Guia de estilo: produto/guia_de_estilo.md
     - Protótipo: produto/prototipo.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
@@ -126,7 +124,18 @@ nav:
       - Review: reunioes/Sprint_3/review.md
     - Sprint 4:
       - Planning: reunioes/Sprint_4/planning.md
-
+      - Reunião PO 08/11: reunioes/Sprint_4/reuniao_PO_08_11.md
+      - Review: reunioes/Sprint_4/review.md
+    - Sprint 5:
+      - Planning: reunioes/Sprint_5/planning.md
+      - Reunião PO 15/11: reunioes/Sprint_5/reuniao_PO_15_11.md
+      - Review: reunioes/Sprint_5/review.md
+    - Sprint 6:
+      - Planning: reunioes/Sprint_6/planning.md
+      - Reunião PO 15/11: reunioes/Sprint_6/reuniao_PO_22_11.md
+      - Review: reunioes/Sprint_6/review.md
+    - Sprint 7:
+      - Planning: reunioes/Sprint_7/planning.md
   - Monitoramento:
       - Agile EVM: monitoramento/EVM.md
       - Burndown de Riscos: monitoramento/burndown-riscos.md
