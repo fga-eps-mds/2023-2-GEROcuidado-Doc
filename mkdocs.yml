@@ -68,6 +68,7 @@ nav:
     - Documento de Banco de Dados: produto/banco_de_dados.md 
     - Guia de estilo: produto/guia_de_estilo.md
     - Protótipo: produto/prototipo.md
+    - Post Mortem: produto/post_mortem.md
   - Lean Inception:
     - Lean Inception: lean_inception/lean_inception.md 
     - Kick-off: lean_inception/kickoff.md
@@ -139,7 +140,11 @@ nav:
   - Monitoramento:
       - Agile EVM: monitoramento/EVM.md
       - Burndown de Riscos: monitoramento/burndown-riscos.md
-      - Analytics: monitoramento/analytics.md    
+      - Analytics: monitoramento/analytics.md
+
+  - Encerramento:
+      - Relatorio de encerramento do projeto: encerramento/relatorio_encerramento.md
+      - Postmortem: encerramento/postmortem.md
 
 plugins:
   - search

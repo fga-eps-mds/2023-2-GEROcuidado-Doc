@@ -29,14 +29,14 @@ Este documento tem por objetivo reunir os principais documentos produzidos refer
 
 <p>O Diagrama Entidade-Relacionamento (DER) é uma representação gráfica amplamente utilizada no projeto de bancos de dados. Ele descreve as entidades (objetos), seus atributos (características) e os relacionamentos entre as entidades. Os retângulos representam as entidades, as elipses indicam os atributos e as linhas conectam as entidades para mostrar como elas se relacionam. O DER é uma ferramenta fundamental para visualizar e planejar a estrutura de um banco de dados antes da implementação, ajudando a definir como os dados são armazenados e acessados </p>
 
-![DER](../assets/imagens/banco_de_dados/DER.png)
+![DER](../assets/imagens/banco_de_dados/DER.jpeg)
 
 ### 2.3 DLD
 
 <p> 
 O Diagrama Lógico de Dados (DLD) é uma representação gráfica que ilustra a estrutura lógica de um banco de dados. Nesse diagrama, são exibidas informações cruciais, como os tipos de atributos associados a cada entidade, bem como as chaves estrangeiras e restrições, como a chave única (unique key). Seu propósito fundamental é fornecer uma representação estruturada e específica da maneira como o banco de dados deve ser implementado. Em resumo, o DLD funciona como uma representação visual que orienta a implementação efetiva do banco de dados.</p>
 
-![DLD](../assets/imagens/banco_de_dados/DLD.png)
+![DLD](../assets/imagens/banco_de_dados/DLD.jpeg)
 
 ### 2.4 Dicionário de Dados
 
@@ -50,9 +50,9 @@ Um Dicionário de Dados é uma referência essencial em gerenciamento de dados. 
 
 ![USUARIO](../assets/imagens/banco_de_dados/dicionario_de_dados/USUARIO.png)
 
-### Paciente
+### Idoso
 
-![Paciente](../assets/imagens/banco_de_dados/dicionario_de_dados/PACIENTE.png)
+![Idoso](../assets/imagens/banco_de_dados/dicionario_de_dados/PACIENTE.png)
 
 ### Métricas de saúde
 
