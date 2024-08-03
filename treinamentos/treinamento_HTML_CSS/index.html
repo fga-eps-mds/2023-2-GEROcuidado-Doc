@@ -1,0 +1,4393 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../treinamento_SQL/">
+      
+      
+        <link rel="next" href="../treinamento_docker/">
+      
+      
+      <link rel="icon" href="../../assets/gero.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Treinamento de HTML CSS - GEROcuidado</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#fff" data-md-color-accent="#0B4D9B">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#indice" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="GEROcuidado" class="md-header__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GEROcuidado
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Treinamento de HTML CSS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023-2-GEROcuidado-Doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lean_inception/lean_inception/" class="md-tabs__link">
+          
+  
+  Lean Inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/quadro_de_disponibilidade/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../produto/documento_arquitetura/" class="md-tabs__link">
+          
+  
+  Produto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lean_inception/lean_inception/" class="md-tabs__link">
+          
+  
+  Lean Inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../cronograma_dojos/" class="md-tabs__link">
+          
+  
+  Treinamentos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../reunioes/Semana_1/reuniao_EPS_04_09/" class="md-tabs__link">
+          
+  
+  Reuniões
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../monitoramento/EVM/" class="md-tabs__link">
+          
+  
+  Monitoramento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../encerramento/relatorio_encerramento/" class="md-tabs__link">
+          
+  
+  Encerramento
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GEROcuidado" class="md-nav__button md-logo" aria-label="GEROcuidado" data-md-component="logo">
+      
+  <img src="../../assets/gero.png" alt="logo">
+
+    </a>
+    GEROcuidado
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2023-2-GEROcuidado-Doc" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023-2-GEROcuidado-Doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lean Inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/lean_inception/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/kickoff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kick-off
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_de_disponibilidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de disponibilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_conhecimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro_pareamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de pareamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_comunicacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_custos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/plano_de_qualidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de qualidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/gerenciamento_de_riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de gerenciamento de risco
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/padroes_da_comunidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Padrões da comunidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologias
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estrutura Analítica do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Produto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Produto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/documento_arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/banco_de_dados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Banco de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/guia_de_estilo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de estilo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/prototipo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/post_mortem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Post Mortem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Lean Inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/lean_inception/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lean Inception
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/kickoff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kick-off
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/dia_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dia 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Treinamentos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Treinamentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronograma_dojos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma Dojos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_linux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_git/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de Git
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_metodologias_ageis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de Metodologias Ágeis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de Javascript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_SQL/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de SQL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Treinamento de HTML CSS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de HTML CSS
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#html-hypertext-markup-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTML (HyperText Markup Language)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#css-cascading-style-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      CSS (Cascading Style Sheets)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#site-modelo-treinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Site Modelo treinamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-apresentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link apresentação
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treinamento_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Treinamento de Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reuniões
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_1/reuniao_EPS_04_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião EPS 04/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_1/reuniao_Geral_05_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 05/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_1/reuniao_PO_06_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 06/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_2/reuniao_Geral_12_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 12/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_2/reuniao_Lean_Inception_Dia1_17_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Lean Inception Dia 1 17/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_2/reuniao_PO_13_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 13/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_3/reuniao_Geral_19_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 19/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_3/reuniao_PO_20_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 20/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_3/reuniao_Treinamento_e_Lean_Inception_Dia2_23_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Treinamento e Lean Inception Dia 2 23/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_4/reuniao_Geral_26_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 26/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_4/reuniao_PO_27_09/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 27/09
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_5/reuniao_Geral_03_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 03/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_5/reuniao_PO_04_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 04/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_5/reuniao_EPS_05_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião EPS 05/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Semana 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Semana 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_6/reuniao_EPS_09_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião EPS 09/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_6/reuniao_Geral_10_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Geral 10/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_6/reuniao_PO_11_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 11/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Semana_6/reuniao_EPS_MDS_Banco_de_Dados11_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Banco de Dados 11/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_1/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_1/reuniao_PO_18_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 18/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_1/reuniao_Pareamento_20_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Pareamento 20/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_1/reuniao_Pareamento_21_10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião Pareamento 21/10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_1/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_8" id="__nav_7_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_8">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_2/planning_sprint_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_2/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_9" id="__nav_7_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_3/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_3/reuniao_PO_01_11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 01/11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_3/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_10" id="__nav_7_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_10">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_4/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_4/reuniao_PO_08_11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 08/11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_4/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_11" id="__nav_7_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_11">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_5/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_5/reuniao_PO_15_11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 15/11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_5/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_12" id="__nav_7_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_12">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_6/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_6/reuniao_PO_22_11/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião PO 15/11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_6/review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_13" id="__nav_7_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 7
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_13">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/Sprint_7/planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Monitoramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Monitoramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitoramento/EVM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agile EVM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitoramento/burndown-riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Burndown de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monitoramento/analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Encerramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Encerramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encerramento/relatorio_encerramento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relatorio de encerramento do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../encerramento/postmortem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Postmortem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#html-hypertext-markup-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTML (HyperText Markup Language)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#css-cascading-style-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      CSS (Cascading Style Sheets)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#site-modelo-treinamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Site Modelo treinamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-apresentacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link apresentação
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="indice">Índice</h1>
+<h2 id="html-hypertext-markup-language">HTML (HyperText Markup Language)</h2>
+<ol>
+<li>
+<p><a href="#1-introdução-ao-html">Introdução ao HTML</a></p>
+</li>
+<li>
+<p>O que é HTML?</p>
+</li>
+<li>Estrutura básica de um documento HTML</li>
+<li>
+<p>Tags, elementos e atributos</p>
+</li>
+<li>
+<p><a href="#2-estrutura-de-um-documento-html">Estrutura de um Documento HTML</a></p>
+</li>
+<li>
+<p>Doctype</p>
+</li>
+<li>Elemento <code>&lt;html&gt;</code></li>
+<li>Elemento <code>&lt;head&gt;</code> (meta tags, título)</li>
+<li>
+<p>Elemento <code>&lt;body&gt;</code></p>
+</li>
+<li>
+<p><a href="#3-texto-e-formatação">Texto e Formatação</a></p>
+</li>
+<li>
+<p>Parágrafos (<code>&lt;p&gt;</code>)</p>
+</li>
+<li>Títulos (<code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>)</li>
+<li>Texto em negrito (<code>&lt;strong&gt;</code>) e itálico (<code>&lt;em&gt;</code>)</li>
+<li>Quebras de linha (<code>&lt;br&gt;</code>)</li>
+<li>
+<p>Comentários (<code>&lt;!-- --&gt;</code>)</p>
+</li>
+<li>
+<p><a href="#4-listas">Listas</a></p>
+</li>
+<li>
+<p>Listas ordenadas (<code>&lt;ol&gt;</code>)</p>
+</li>
+<li>Listas não ordenadas (<code>&lt;ul&gt;</code>)</li>
+<li>
+<p>Listas de definição (<code>&lt;dl&gt;</code>)</p>
+</li>
+<li>
+<p><a href="#5-links">Links</a></p>
+</li>
+<li>
+<p>Hiperlinks (<code>&lt;a&gt;</code>)</p>
+</li>
+<li>Âncoras e URLs</li>
+<li>
+<p>Links internos e externos</p>
+</li>
+<li>
+<p><a href="#6-imagens">Imagens</a></p>
+</li>
+<li>
+<p>Inserindo imagens (<code>&lt;img&gt;</code>)</p>
+</li>
+<li>Atributos alt e src</li>
+<li>
+<p>Imagens responsivas</p>
+</li>
+<li>
+<p><a href="#7-formulários">Formulários</a></p>
+</li>
+<li>
+<p>Elemento <code>&lt;form&gt;</code></p>
+</li>
+<li>Campos de entrada de texto (<code>&lt;input&gt;</code>)</li>
+<li>Botões (<code>&lt;button&gt;</code>)</li>
+<li>Caixas de seleção (<code>&lt;select&gt;</code>)</li>
+<li>Botões de opção (<code>&lt;radio&gt;</code>) e caixas de verificação (<code>&lt;checkbox&gt;</code>)</li>
+<li>
+<p>Envio de formulário</p>
+</li>
+<li>
+<p>Documentação: https://www.w3schools.com/TAGS/default.asp</p>
+</li>
+</ol>
+<h2 id="css-cascading-style-sheets">CSS (Cascading Style Sheets)</h2>
+<ol>
+<li>
+<p><a href="#1-introdução-ao-css-cascading-style-sheets">Introdução ao CSS</a></p>
+</li>
+<li>
+<p>O que é CSS?</p>
+</li>
+<li>
+<p>Vantagens de usar CSS</p>
+</li>
+<li>
+<p><a href="#2-seletores-e-propriedades-css">Seletores e Propriedades</a></p>
+</li>
+<li>
+<p>Seletores de elemento, classe e ID</p>
+</li>
+<li>Definindo propriedades de estilo</li>
+<li>
+<p>Comentários em CSS</p>
+</li>
+<li>
+<p><a href="#3-estilos-inline-incorporados-e-externos-em-css">Estilos Inline, Incorporados e Externos</a></p>
+</li>
+<li>
+<p>Uso de estilos inline</p>
+</li>
+<li>Incorporando estilos com a tag <code>&lt;style&gt;</code></li>
+<li>Vinculando um arquivo CSS externo</li>
+</ol>
+<p>4.<a href="#4-formatação-de-texto-em-css">Formatação de Texto</a></p>
+<ul>
+<li>Tamanho de fonte</li>
+<li>Cor de texto e de fundo</li>
+<li>
+<p>Espaçamento entre linhas e margens</p>
+</li>
+<li>
+<p><a href="#5-modelos-de-caixas-box-model-em-css">Box Model</a></p>
+</li>
+<li>
+<p>Margem, borda, preenchimento (margin, border, padding)</p>
+</li>
+<li>
+<p>Tamanho e modelo de caixa (box-sizing)</p>
+</li>
+<li>
+<p><a href="#6-posicionamento-e-layout-em-css">Layout e Posicionamento</a></p>
+</li>
+<li>
+<p>Posicionamento estático, relativo, absoluto e fixo</p>
+</li>
+<li>Display (block, inline, inline-block)</li>
+<li>
+<p>Modelos de layout (flexbox e grid)</p>
+</li>
+<li>
+<p><a href="#7-cores-e-fundos-em-css">Cores e Fundos</a></p>
+</li>
+<li>
+<p>Definindo cores (hexadecimal, RGB, nomes)</p>
+</li>
+<li>Imagens de fundo (background-image)</li>
+<li>
+<p>Gradientes</p>
+</li>
+<li>
+<p><a href="#8-pseudo-classes-e-pseudo-elementos-em-css">Pseudo-classes e Pseudo-elementos</a></p>
+</li>
+<li>
+<p>Uso de :hover, :active, :focus</p>
+</li>
+<li>
+<p>::before e ::after</p>
+</li>
+<li>
+<p><a href="#9-media-queries-em-css">Media Queries</a></p>
+</li>
+<li>
+<p>Criando layouts responsivos</p>
+</li>
+<li>
+<p>Conceito de breakpoints</p>
+</li>
+<li>
+<p><a href="#10-animações-e-transições-em-css-opcional">Animações e Transições (opcional)</a></p>
+</li>
+<li>
+<p>Criando animações com keyframes</p>
+</li>
+<li>Aplicando transições suaves</li>
+</ul>
+<h2 id="site-modelo-treinamento">Site Modelo treinamento</h2>
+<p>https://melohenrique-room.netlify.app/</p>
+<h2 id="link-apresentacao">Link apresentação</h2>
+<p>https://drive.google.com/file/d/1tUuvqo9xnq4Jt6OHKm3hG6mgmaGdohJ0/view?usp=sharing</p>
+<h1 id="html-hypertext-markup-language_1">HTML (HyperText Markup Language)</h1>
+<h2 id="1-introducao-ao-html">1. Introdução ao HTML</h2>
+<h3 id="o-que-e-html">O que é HTML?</h3>
+<p>HTML, sigla para HyperText Markup Language, é uma linguagem de marcação usada para criar páginas da web. Ele permite estruturar o conteúdo de uma página, incluindo textos, imagens, links e outros elementos, de forma organizada e semântica.</p>
+<h3 id="estrutura-basica-de-um-documento-html">Estrutura básica de um documento HTML</h3>
+<p>Um documento HTML é composto por uma estrutura básica que inclui elementos essenciais:</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt; &lt;!-- Define o tipo de documento HTML5 --&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;!-- Define a codificação de caracteres --&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt; &lt;!-- Define o título da página exibido na aba do navegador --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Conteúdo da página vai aqui --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h3 id="tags-elementos-e-atributos">Tags, elementos e atributos</h3>
+<ul>
+<li>
+<p>Tags: São elementos fundamentais em HTML e são usados para marcar partes específicas do conteúdo, como títulos, parágrafos, imagens, etc. Exemplo: <code>&lt;h1&gt;</code>Meu Título<code>&lt;/h1&gt;</code></p>
+</li>
+<li>
+<p>Elementos: São combinações de tags que englobam o conteúdo relacionado. Por exemplo, o elemento de lista não ordenada <code>&lt;ul&gt;</code> engloba várias tags de item de lista <code>&lt;li&gt;</code>.</p>
+</li>
+<li>
+<p>Atributos: São informações adicionais fornecidas às tags para modificar seu comportamento ou aparência. Exemplo: <code>&lt;img src="imagem.jpg" alt="Descrição da Imagem"&gt;</code>.</p>
+</li>
+</ul>
+<p>Lembre-se de que HTML é uma linguagem de marcação estrutural, não de estilo. Para estilizar elementos, você usaria CSS (Cascading Style Sheets).</p>
+<h2 id="2-estrutura-de-um-documento-html">2. Estrutura de um Documento HTML</h2>
+<p>A estrutura básica de um documento HTML é composta pelo Doctype, o elemento <code>&lt;html&gt;</code>, o elemento <code>&lt;head&gt;</code>, e o elemento <code>&lt;body&gt;</code>. Isso estabelece a base para a criação de uma página da web.</p>
+<ul>
+<li>Doctype: O Doctype é a primeira linha de um documento HTML e define o tipo de documento que está sendo usado. Para documentos HTML5, usamos o seguinte Doctype:</li>
+</ul>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+</code></pre>
+<ul>
+<li>Elemento <code>&lt;html&gt;</code>: O elemento <code>&lt;html&gt;</code> é o contêiner raiz de todo documento HTML. Ele engloba todo o conteúdo da página e define o idioma padrão da página usando o atributo lang.</li>
+</ul>
+<pre><code class="language-html">&lt;html lang=&quot;pt-BR&quot;&gt;
+    &lt;!-- Conteúdo da página vai aqui --&gt;
+&lt;/html&gt;
+</code></pre>
+<ul>
+<li>Elemento <code>&lt;head&gt;</code>: O elemento <code>&lt;head&gt;</code> contém informações sobre o documento, como meta tags, links para folhas de estilo CSS e o título da página.</li>
+</ul>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Título da Página&lt;/title&gt;
+    &lt;!-- Outros elementos do cabeçalho podem ser incluídos aqui --&gt;
+&lt;/head&gt;
+</code></pre>
+<ul>
+<li>Elemento <code>&lt;body&gt;</code>: O elemento <code>&lt;body&gt;</code> contém o conteúdo visível da página, incluindo textos, imagens, links e outros elementos.</li>
+</ul>
+<pre><code class="language-html">&lt;body&gt;
+    &lt;h1&gt;Meu Título&lt;/h1&gt;
+    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+    &lt;!-- Outros elementos do corpo da página vão aqui --&gt;
+&lt;/body&gt;
+</code></pre>
+<h2 id="3-texto-e-formatacao">3. Texto e Formatação</h2>
+<ul>
+<li>Parágrafos (<code>&lt;p&gt;</code>): Os parágrafos são usados para estruturar o texto em blocos coesos.</li>
+</ul>
+<pre><code class="language-html">&lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+</code></pre>
+<ul>
+<li>Títulos (<code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>): Os títulos são usados para definir a hierarquia de cabeçalhos, do <code>&lt;h1&gt;</code> (mais importante) ao <code>&lt;h6&gt;</code> (menos importante).</li>
+</ul>
+<pre><code class="language-html">&lt;h1&gt;Título Principal&lt;/h1&gt;
+&lt;h2&gt;Subtítulo&lt;/h2&gt;
+</code></pre>
+<ul>
+<li>Texto em Negrito (<code>&lt;strong&gt;</code>) e Itálico (<code>&lt;em&gt;</code>): As tags <code>&lt;strong&gt;</code> e <code>&lt;em&gt;</code> são usadas para enfatizar o texto.</li>
+</ul>
+<pre><code class="language-html">&lt;p&gt;Este é um texto &lt;strong&gt;em negrito&lt;/strong&gt; e este é um texto &lt;em&gt;itálico&lt;/em&gt;.&lt;/p&gt;
+</code></pre>
+<ul>
+<li>Quebras de Linha (<code>&lt;br&gt;</code>): A tag <code>&lt;br&gt;</code> é usada para inserir uma quebra de linha dentro do texto.</li>
+</ul>
+<pre><code class="language-html">&lt;p&gt;Esta é a primeira linha.&lt;br&gt;Esta é a segunda linha.&lt;/p&gt;
+</code></pre>
+<ul>
+<li>Comentários (<code>&lt;!-- --&gt;</code>): Os comentários são usados para adicionar notas ou descrições no código HTML que não são visíveis na página.</li>
+</ul>
+<pre><code class="language-html">&lt;!-- Este é um comentário de exemplo --&gt;
+</code></pre>
+<h2 id="4-listas">4. Listas</h2>
+<ul>
+<li>Listas Ordenadas (<code>&lt;ol&gt;</code>): As listas ordenadas são usadas para criar listas numeradas, onde cada item é automaticamente numerado.</li>
+</ul>
+<pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<ul>
+<li>Listas Não Ordenadas (<code>&lt;ul&gt;</code>): As listas não ordenadas são usadas para criar listas com marcadores, onde cada item é precedido por um marcador.</li>
+</ul>
+<pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Item A&lt;/li&gt;
+    &lt;li&gt;Item B&lt;/li&gt;
+    &lt;li&gt;Item C&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<ul>
+<li>Listas Aninhadas: Você também pode criar listas aninhadas, colocando uma lista dentro de um item de lista.</li>
+</ul>
+<pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2
+        &lt;ul&gt;
+            &lt;li&gt;Subitem 1&lt;/li&gt;
+            &lt;li&gt;Subitem 2&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<h2 id="5-links">5. Links</h2>
+<ul>
+<li>Hiperlinks (<code>&lt;a&gt;</code>): A tag <code>&lt;a&gt;</code> é usada para criar hiperlinks, permitindo que os visitantes da página cliquem em um texto ou imagem para navegar para outra página da web ou recurso.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;https://www.exemplo.com&quot;&gt;Visitar Exemplo.com&lt;/a&gt;
+</code></pre>
+<ul>
+<li>
+<p>Âncoras e URLs: O atributo href dentro da tag <code>&lt;a&gt;</code> especifica o URL de destino para o link.</p>
+</li>
+<li>
+<p>Links Internos: Além de URLs externos, você pode criar links internos dentro da mesma página usando âncoras.</p>
+</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;#secao2&quot;&gt;Ir para Seção 2&lt;/a&gt;
+...
+&lt;h2 id=&quot;secao2&quot;&gt;Seção 2&lt;/h2&gt;
+</code></pre>
+<ul>
+<li>Links de Email: Você também pode usar a tag <code>&lt;a&gt;</code> para criar links de email.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;mailto:exemplo@email.com&quot;&gt;Enviar um Email&lt;/a&gt;
+</code></pre>
+<ul>
+<li>Links para Downloads: Para permitir o download de arquivos, você pode usar a tag <code>&lt;a&gt;</code> com o atributo download.</li>
+</ul>
+<pre><code class="language-html">&lt;a href=&quot;documento.pdf&quot; download&gt;Baixar Documento PDF&lt;/a&gt;
+</code></pre>
+<h2 id="6-imagens">6. Imagens</h2>
+<ul>
+<li>Inserindo Imagens (<code>&lt;img&gt;</code>): A tag <code>&lt;img&gt;</code> é usada para inserir imagens em uma página da web. Ela não possui uma tag de fechamento e requer o atributo src, que especifica o caminho para a imagem.</li>
+</ul>
+<pre><code class="language-html">&lt;img src=&quot;imagem.jpg&quot; alt=&quot;Descrição da Imagem&quot;&gt;
+</code></pre>
+<ul>
+<li>Atributos alt e src: O atributo alt fornece uma descrição alternativa da imagem, importante para acessibilidade e SEO. O atributo src especifica o caminho da imagem.</li>
+</ul>
+<pre><code class="language-html">&lt;img src=&quot;gato.jpg&quot; alt=&quot;Foto de um gato fofo&quot;&gt;
+</code></pre>
+<ul>
+<li>Imagens Responsivas: Para garantir que as imagens se ajustem ao tamanho da tela, você pode adicionar a classe class="img-responsive" (no contexto do framework Bootstrap) ou usar CSS para tornar as imagens responsivas.</li>
+</ul>
+<pre><code class="language-html">&lt;img src=&quot;imagem.jpg&quot; alt=&quot;Descrição da Imagem&quot; class=&quot;img-responsive&quot;&gt;
+</code></pre>
+<h2 id="7-formularios">7. Formulários</h2>
+<ul>
+<li>Elemento <code>&lt;form&gt;</code>: O elemento <code>&lt;form&gt;</code> é usado para criar formulários interativos em uma página da web. Ele envolve vários elementos de entrada e define como os dados serão enviados ao servidor.</li>
+</ul>
+<pre><code class="language-html">&lt;form action=&quot;/processar-formulario&quot; method=&quot;post&quot;&gt;
+    &lt;!-- Elementos de entrada do formulário vão aqui --&gt;
+    &lt;input type=&quot;text&quot; name=&quot;nome&quot; placeholder=&quot;Seu Nome&quot;&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Seu Email&quot;&gt;
+    &lt;button type=&quot;submit&quot;&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+<ul>
+<li>Campos de Entrada (<code>&lt;input&gt;</code>): A tag <code>&lt;input&gt;</code> é usada para criar campos de entrada de texto, como campos de texto, caixas de seleção, botões de rádio e caixas de verificação.</li>
+</ul>
+<pre><code class="language-html">&lt;input type=&quot;text&quot; name=&quot;usuario&quot; placeholder=&quot;Nome de Usuário&quot;&gt;
+&lt;input type=&quot;password&quot; name=&quot;senha&quot; placeholder=&quot;Senha&quot;&gt;
+&lt;input type=&quot;checkbox&quot; name=&quot;lembre-me&quot; id=&quot;lembre-me&quot;&gt;
+&lt;label for=&quot;lembre-me&quot;&gt;Lembre-me&lt;/label&gt;
+</code></pre>
+<ul>
+<li>Botões (<code>&lt;button&gt;</code>): A tag <code>&lt;button&gt;</code> é usada para criar botões em formulários. Você pode usá-los para enviar formulários ou realizar outras ações específicas.</li>
+</ul>
+<pre><code class="language-html">&lt;button type=&quot;submit&quot;&gt;Enviar&lt;/button&gt;
+&lt;button type=&quot;reset&quot;&gt;Limpar&lt;/button&gt;
+</code></pre>
+<ul>
+<li>Caixas de Seleção (<code>&lt;select&gt;</code>) e Opções (<code>&lt;option&gt;</code>): Você pode usar o elemento <code>&lt;select&gt;</code> para criar listas suspensas e o elemento <code>&lt;option&gt;</code> para definir as opções dentro dessas listas.</li>
+</ul>
+<pre><code class="language-html">&lt;select name=&quot;cidade&quot;&gt;
+    &lt;option value=&quot;ny&quot;&gt;Nova York&lt;/option&gt;
+    &lt;option value=&quot;la&quot;&gt;Los Angeles&lt;/option&gt;
+    &lt;option value=&quot;sf&quot;&gt;São Francisco&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+<ul>
+<li>Envio de Formulário: Ao clicar em um botão de envio dentro de um formulário, os dados inseridos nos campos de entrada são enviados ao servidor especificado no atributo action do elemento <code>&lt;form&gt;</code>.</li>
+</ul>
+<pre><code class="language-html">&lt;form action=&quot;/processar-formulario&quot; method=&quot;post&quot;&gt;
+    &lt;label for=&quot;nome&quot;&gt;Nome:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;nome&quot; name=&quot;nome&quot; placeholder=&quot;Seu Nome&quot; required&gt;
+
+    &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Seu Email&quot; required&gt;
+
+    &lt;button type=&quot;submit&quot;&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+<h1 id="css-cascading-style-sheets_1">CSS (Cascading Style Sheets)</h1>
+<h2 id="1-introducao-ao-css-cascading-style-sheets">1. Introdução ao CSS (Cascading Style Sheets)</h2>
+<ul>
+<li>
+<p>O que é CSS: CSS é a sigla para "Cascading Style Sheets" (Folhas de Estilo em Cascata). É uma linguagem de estilo usada para controlar a apresentação e o layout de elementos em uma página da web.</p>
+</li>
+<li>
+<p>Separação de Conteúdo e Estilo: Uma das principais vantagens do CSS é a separação de conteúdo e estilo. Isso significa que você pode manter o conteúdo HTML de uma página separado do seu estilo CSS. Isso torna o código mais limpo, organizado e mais fácil de manter.</p>
+</li>
+<li>
+<p>Seletor e Propriedades: No CSS, você seleciona os elementos HTML aos quais deseja aplicar estilos usando seletores e, em seguida, define as propriedades de estilo para esses elementos.</p>
+</li>
+</ul>
+<pre><code class="language-css">/* Seletor */
+p {
+    /* Propriedades de Estilo */
+    color: blue;
+    font-size: 16px;
+}
+</code></pre>
+<ul>
+<li>
+<p>Cascata: A palavra "cascata" em CSS significa que as regras de estilo podem ser sobrepostas e herdar características. Isso permite que você defina estilos de forma hierárquica, aplicando estilos gerais e, em seguida, refinando-os para elementos específicos.</p>
+</li>
+<li>
+<p>Herança: Os estilos aplicados a um elemento podem ser herdados por elementos filhos, a menos que sejam substituídos por estilos mais específicos.</p>
+</li>
+<li>
+<p>Folhas de Estilo Externas: Além de inserir estilos diretamente no HTML usando a tag <code>&lt;style&gt;</code>, você pode criar folhas de estilo externas em arquivos separados com a extensão .css e vinculá-los a várias páginas HTML usando a tag <code>&lt;link&gt;</code>.</p>
+</li>
+</ul>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;estilos.css&quot;&gt;
+</code></pre>
+<h2 id="2-seletores-e-propriedades-css">2. Seletores e Propriedades CSS</h2>
+<ul>
+<li>
+<p>Seletores: Os seletores CSS são padrões que definem quais elementos HTML receberão os estilos. Existem vários tipos de seletores, incluindo seletores de elemento, seletores de classe, seletores de ID e seletores de atributo.</p>
+</li>
+<li>
+<p>Exemplo de seletores de elemento:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    /* Estilos aplicados a todos os parágrafos */
+}
+
+h1, h2 {
+    /* Estilos aplicados a todos os cabeçalhos h1 e h2 */
+}
+</code></pre>
+<ul>
+<li>Exemplo de seletores de classe:</li>
+</ul>
+<pre><code class="language-css">.destaque {
+    /* Estilos aplicados a elementos com a classe &quot;destaque&quot; */
+}
+</code></pre>
+<ul>
+<li>Exemplo de seletores de ID:</li>
+</ul>
+<pre><code class="language-css">#cabecalho {
+    /* Estilos aplicados a um elemento com o ID &quot;cabecalho&quot; */
+}
+</code></pre>
+<ul>
+<li>
+<p>Propriedades CSS: As propriedades CSS são atributos que você pode definir para os elementos selecionados. Cada propriedade define um aspecto diferente do estilo, como cor, tamanho, margens, etc.</p>
+</li>
+<li>
+<p>Exemplo de propriedades CSS:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    color: blue; /* Define a cor do texto para azul */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    margin-top: 10px; /* Define a margem superior como 10 pixels */
+    background-color: #f0f0f0; /* Define a cor de fundo como cinza claro */
+}
+</code></pre>
+<ul>
+<li>
+<p>Regras CSS: As regras CSS são formadas por seletores e propriedades, e são usadas para definir estilos. Elas são definidas dentro de um bloco de código entre chaves {}.</p>
+</li>
+<li>
+<p>Exemplo de regra CSS:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    color: blue;
+    font-size: 16px;
+}
+</code></pre>
+<ul>
+<li>
+<p>Comentários CSS: Você pode adicionar comentários em seu código CSS para documentar seu trabalho. Os comentários são precedidos por /<em> e terminados com </em>/.</p>
+</li>
+<li>
+<p>Exemplo de comentário CSS:</p>
+</li>
+</ul>
+<pre><code class="language-css">/* Este é um comentário de exemplo */
+</code></pre>
+<h2 id="3-estilos-inline-incorporados-e-externos-em-css">3. Estilos Inline, Incorporados e Externos em CSS</h2>
+<ul>
+<li>
+<p>Estilos Inline: Os estilos inline são aplicados diretamente a elementos HTML usando o atributo style. Esses estilos têm a maior especificidade e substituirão qualquer estilo definido externamente.</p>
+</li>
+<li>
+<p>Exemplo de estilo inline:</p>
+</li>
+</ul>
+<pre><code class="language-html">&lt;p style=&quot;color: red;&quot;&gt;Este texto é vermelho.&lt;/p&gt;
+</code></pre>
+<ul>
+<li>
+<p>Estilos Incorporados (Internal Styles): Os estilos incorporados são definidos dentro do próprio documento HTML, entre as tags <code>&lt;style&gt;</code>. Esses estilos se aplicam a todas as ocorrências dos elementos selecionados no documento.</p>
+</li>
+<li>
+<p>Exemplo de estilo incorporado:</p>
+</li>
+</ul>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;style&gt;
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Este é um parágrafo com estilo incorporado.&lt;/p&gt;
+&lt;/body&gt;
+</code></pre>
+<ul>
+<li>
+<p>Estilos Externos (External Styles): Os estilos externos são definidos em arquivos CSS separados e vinculados ao documento HTML usando a tag <code>&lt;link&gt;</code>. Esses estilos podem ser reutilizados em várias páginas HTML.</p>
+</li>
+<li>
+<p>Exemplo de estilo externo (em um arquivo "estilos.css"):</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    color: green;
+    font-size: 18px;
+}
+</code></pre>
+<ul>
+<li>Vinculação do arquivo CSS ao HTML:</li>
+</ul>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;estilos.css&quot;&gt;
+</code></pre>
+<h2 id="4-formatacao-de-texto-em-css">4. Formatação de Texto em CSS</h2>
+<ul>
+<li>
+<p>Fontes (font-family): A propriedade font-family permite definir a família de fontes para um elemento de texto. Você pode especificar várias fontes em ordem de preferência, para que o navegador escolha a primeira disponível.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+</code></pre>
+<ul>
+<li>
+<p>Tamanho de Fonte (font-size): A propriedade font-size define o tamanho da fonte do texto.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">h1 {
+    font-size: 24px;
+}
+</code></pre>
+<ul>
+<li>
+<p>Estilo de Fonte (font-style): A propriedade font-style permite definir o estilo da fonte, como itálico.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">em {
+    font-style: italic;
+}
+</code></pre>
+<ul>
+<li>
+<p>Peso da Fonte (font-weight): A propriedade font-weight define a espessura da fonte, como negrito.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">strong {
+    font-weight: bold;
+}
+</code></pre>
+<ul>
+<li>
+<p>Cor do Texto (color): A propriedade color define a cor do texto.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    color: #333; /* Cor cinza escuro */
+}
+</code></pre>
+<ul>
+<li>
+<p>Espaçamento entre Linhas (line-height): A propriedade line-height controla o espaçamento entre as linhas de texto.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    line-height: 1.5; /* Espaçamento 1,5 vezes a altura da fonte */
+}
+</code></pre>
+<ul>
+<li>
+<p>Alinhamento de Texto (text-align): A propriedade text-align define como o texto é alinhado dentro de um elemento, como à esquerda, à direita, centralizado ou justificado.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">h2 {
+    text-align: center;
+}
+</code></pre>
+<ul>
+<li>
+<p>Decoração de Texto (text-decoration): A propriedade text-decoration controla a decoração do texto, como sublinhado.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">a {
+    text-decoration: none; /* Remove sublinhado de links */
+}
+</code></pre>
+<h2 id="5-modelos-de-caixas-box-model-em-css">5. Modelos de Caixas (Box Model) em CSS</h2>
+<ul>
+<li>
+<p>Modelo de Caixa (Box Model): O modelo de caixa é um conceito fundamental em CSS que descreve como os elementos HTML são representados visualmente. Cada elemento HTML é considerado uma caixa retangular que consiste em quatro áreas principais: conteúdo, preenchimento, borda e margem.</p>
+</li>
+<li>
+<p>Conteúdo (content): É a área interna da caixa que contém o conteúdo real, como texto ou imagens.</p>
+</li>
+<li>
+<p>Preenchimento (padding): É uma área opcional ao redor do conteúdo, separando-o da borda. O preenchimento é controlado pelas propriedades padding-top, padding-right, padding-bottom e padding-left.</p>
+</li>
+<li>
+<p>Borda (border): A borda é uma linha que circunda o conteúdo e o preenchimento. Você pode personalizar a aparência da borda usando propriedades como border-width, border-style e border-color.</p>
+</li>
+<li>
+<p>Margem (margin): A margem é uma área opcional fora da borda que separa um elemento de outros elementos vizinhos. As margens podem ser definidas com as propriedades margin-top, margin-right, margin-bottom e margin-left.</p>
+</li>
+<li>
+<p>Box Sizing (box-sizing): A propriedade box-sizing permite controlar como as dimensões totais da caixa são calculadas. O valor padrão é content-box, que leva em consideração apenas o conteúdo e o preenchimento ao calcular a largura e altura total. Você também pode usar border-box, que inclui o conteúdo, o preenchimento e a borda nas dimensões totais da caixa.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">div {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+    box-sizing: border-box; /* Inclui preenchimento e borda nas dimensões */
+}
+</code></pre>
+<ul>
+<li>Espaçamento Negativo (negative margin): Margens negativas permitem que os elementos se sobreponham a seus vizinhos. Isso pode ser útil para criar layouts complexos, mas deve ser usado com cuidado.</li>
+</ul>
+<h2 id="6-posicionamento-e-layout-em-css">6. Posicionamento e Layout em CSS</h2>
+<ul>
+<li>Posicionamento (position): A propriedade position permite controlar como um elemento é posicionado em relação ao seu contexto. Os valores mais comuns são:</li>
+<li>static (padrão): O elemento é posicionado normalmente no fluxo do documento.</li>
+<li>relative: O elemento é posicionado em relação à sua posição original.</li>
+<li>absolute: O elemento é posicionado em relação ao seu ancestral mais próximo com position diferente de static.</li>
+<li>
+<p>fixed: O elemento é posicionado em relação à janela do navegador, permanecendo fixo enquanto você rola a página.</p>
+</li>
+<li>
+<p>Deslocamento (top, right, bottom, left): Essas propriedades são usadas com elementos posicionados (relative, absolute, ou fixed) para ajustar sua posição a partir de sua localização original.</p>
+</li>
+<li>Exemplo:</li>
+</ul>
+<pre><code class="language-css">.caixa {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+</code></pre>
+<ul>
+<li>
+<p>Layout de Exibição (display): A propriedade display controla o comportamento de exibição de um elemento. Alguns valores comuns incluem:</p>
+</li>
+<li>
+<p>block: O elemento ocupa toda a largura disponível e inicia em uma nova linha.</p>
+</li>
+<li>inline: O elemento ocupa apenas o espaço necessário e não inicia uma nova linha.</li>
+<li>inline-block: Combina características de elementos block e inline.</li>
+<li>
+<p>none: O elemento não é exibido.</p>
+</li>
+<li>
+<p>Flutuação (float): A propriedade float é usada para fazer com que um elemento flutue à esquerda ou à direita de seu contêiner pai. É comumente usado para criar layouts de coluna.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">.coluna {
+    float: left;
+    width: 50%;
+}
+</code></pre>
+<ul>
+<li>
+<p>Clear (clear): A propriedade clear é usada para garantir que um elemento não flutue ao lado de elementos anteriores que estão flutuando.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">.limpar {
+    clear: both;
+}
+</code></pre>
+<ul>
+<li>
+<p>Flexbox e Grid: CSS também oferece recursos avançados de layout, como Flexbox e Grid Layout, que permitem criar layouts complexos de forma eficiente.</p>
+</li>
+<li>
+<p>Exemplo de uso de Flexbox:</p>
+</li>
+</ul>
+<pre><code class="language-css">.container {
+    display: flex;
+    justify-content: space-between;
+}
+</code></pre>
+<ul>
+<li>Exemplo de uso de Grid Layout:</li>
+</ul>
+<pre><code class="language-css">.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+</code></pre>
+<h2 id="7-cores-e-fundos-em-css">7. Cores e Fundos em CSS</h2>
+<ul>
+<li>
+<p>Cor do Texto (color): A propriedade color define a cor do texto dentro de um elemento.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p {
+    color: #FF5733; /* Cor em formato hexadecimal */
+}
+</code></pre>
+<ul>
+<li>
+<p>Cor de Fundo (background-color): A propriedade background-color define a cor de fundo de um elemento.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">div {
+    background-color: #EFEFEF; /* Cor de fundo em formato hexadecimal */
+}
+</code></pre>
+<ul>
+<li>
+<p>Imagem de Fundo (background-image): Você pode definir uma imagem como fundo de um elemento usando a propriedade background-image.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">body {
+    background-image: url('fundo.jpg');
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+}
+</code></pre>
+<ul>
+<li>
+<p>Repetição de Fundo (background-repeat): A propriedade background-repeat controla como uma imagem de fundo é repetida.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">div {
+    background-image: url('padrao.png');
+    background-repeat: repeat-x; /* Repete horizontalmente */
+}
+</code></pre>
+<ul>
+<li>
+<p>Posicionamento de Fundo (background-position): A propriedade background-position permite definir a posição inicial de uma imagem de fundo.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">header {
+    background-image: url('cabecalho.jpg');
+    background-position: center top; /* Posiciona no centro superior */
+}
+</code></pre>
+<ul>
+<li>
+<p>Gradientes de Fundo (background-gradient): Além de cores sólidas e imagens, você pode criar fundos gradientes usando a propriedade background-image.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">button {
+    background-image: linear-gradient(to right, #FF5733, #FFC300); /* Gradiente linear */
+}
+</code></pre>
+<ul>
+<li>
+<p>Sombra Textual (text-shadow) e Sombra de Caixa (box-shadow): Você pode adicionar sombras tanto a texto quanto a caixas usando as propriedades text-shadow e box-shadow, respectivamente.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">h1 {
+    text-shadow: 2px 2px 4px #333; /* Sombra de texto */
+}
+
+.caixa {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caixa */
+}
+</code></pre>
+<h2 id="8-pseudo-classes-e-pseudo-elementos-em-css">8. Pseudo-classes e Pseudo-elementos em CSS</h2>
+<h3 id="pseudo-classes">Pseudo-classes</h3>
+<p>As pseudo-classes são usadas para selecionar elementos com base em estados ou interações do usuário.</p>
+<ul>
+<li>
+<p>:hover: Seleciona um elemento quando o cursor do mouse está sobre ele.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">a:hover {
+    color: red; /* Altera a cor do texto quando o mouse passa sobre o link */
+}
+</code></pre>
+<ul>
+<li>
+<p>:active: Seleciona um elemento quando ele está ativo, geralmente quando é clicado.</p>
+</li>
+<li>
+<p>:focus: Seleciona um elemento quando ele está com foco, como quando um campo de entrada de formulário é selecionado.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">input:focus {
+    border-color: blue; /* Define a cor da borda quando o campo de entrada está em foco */
+}
+</code></pre>
+<ul>
+<li>
+<p>:nth-child(): Seleciona elementos com base em sua posição em relação aos irmãos. Isso permite estilizar elementos em listas ou tabelas de forma específica.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">li:nth-child(even) {
+    background-color: #f2f2f2; /* Define a cor de fundo para linhas pares em uma lista */
+}
+</code></pre>
+<h3 id="pseudo-elementos">Pseudo-elementos</h3>
+<p>Os pseudo-elementos permitem estilizar partes específicas de um elemento, como o primeiro caractere de um parágrafo (::first-letter) ou o último elemento de uma lista (::last-child).</p>
+<ul>
+<li>
+<p>::before e ::after: Permitem adicionar conteúdo gerado antes ou após o conteúdo de um elemento.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p::before {
+    content: &quot;» &quot;; /* Adiciona um caractere antes de cada parágrafo */
+}
+</code></pre>
+<ul>
+<li>
+<p>::first-line e ::first-letter: Permitem estilizar a primeira linha ou o primeiro caractere de um elemento de texto.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">p::first-line {
+    font-weight: bold; /* Deixa a primeira linha do parágrafo em negrito */
+}
+
+p::first-letter {
+    font-size: 24px; /* Aumenta o tamanho da primeira letra do parágrafo */
+}
+</code></pre>
+<ul>
+<li>
+<p>::selection: Permite estilizar o texto selecionado pelo usuário.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">::selection {
+    background-color: yellow; /* Define a cor de fundo para texto selecionado */
+    color: black; /* Define a cor do texto selecionado */
+}
+</code></pre>
+<h2 id="9-media-queries-em-css">9. Media Queries em CSS</h2>
+<p>As media queries são uma parte essencial do design responsivo em CSS. Elas permitem que você adapte o layout e o estilo de uma página da web com base nas características do dispositivo ou na largura da tela.</p>
+<ul>
+<li>
+<p>Sintaxe Básica: Uma media query começa com a palavra-chave @media, seguida de uma condição que descreve as características do dispositivo que você deseja direcionar. As media queries são definidas entre chaves {} e contêm as regras CSS que serão aplicadas quando a condição for atendida.</p>
+</li>
+<li>
+<p>Exemplo de uma media query que direciona dispositivos com largura de tela menor que 600 pixels:</p>
+</li>
+</ul>
+<pre><code class="language-css">@media (max-width: 600px) {
+    /* Regras CSS a serem aplicadas a dispositivos com largura menor que 600px */
+    body {
+        font-size: 14px;
+    }
+    .menu {
+        display: none;
+    }
+}
+</code></pre>
+<ul>
+<li>
+<p>Condições Comuns: Existem várias condições que você pode usar em media queries para direcionar diferentes características do dispositivo, incluindo:</p>
+</li>
+<li>
+<p>max-width e min-width: Define faixas de largura de tela.</p>
+</li>
+<li>max-height e min-height: Define faixas de altura de tela.</li>
+<li>orientation: Direciona a orientação da tela, como retrato ou paisagem.</li>
+<li>device-pixel-ratio: Direciona dispositivos de alta resolução (Retina, por exemplo).</li>
+<li>
+<p>hover: Direciona dispositivos que suportam interações com o mouse.</p>
+</li>
+<li>
+<p>Múltiplas Condições: Você pode combinar várias condições usando operadores and (and) e or (or) para criar media queries mais complexas.</p>
+</li>
+<li>
+<p>Exemplo de uma media query com várias condições:</p>
+</li>
+</ul>
+<pre><code class="language-css">@media (max-width: 600px) and (orientation: portrait) {
+    /* Regras CSS para dispositivos com largura menor que 600px em modo retrato */
+    /* ... */
+}
+</code></pre>
+<ul>
+<li>
+<p>Design Responsivo: O uso eficaz de media queries é fundamental para criar um design responsivo que se adapte a uma variedade de dispositivos e tamanhos de tela. Você pode reorganizar o layout, ajustar tamanhos de fonte, ocultar ou exibir elementos e muito mais, dependendo das necessidades do seu design.</p>
+</li>
+<li>
+<p>Exemplos Práticos: Algumas aplicações comuns de media queries incluem ajustar a navegação para telas pequenas, reorganizar colunas em layouts de grade e alterar o tamanho da fonte para melhor legibilidade em dispositivos móveis.</p>
+</li>
+</ul>
+<h2 id="10-animacoes-e-transicoes-em-css-opcional">10. Animações e Transições em CSS (Opcional)</h2>
+<p>As animações e transições em CSS permitem adicionar movimento e interatividade a elementos em uma página da web.</p>
+<ul>
+<li>
+<p>Transições (transition): As transições permitem suavizar a mudança de um estado para outro. Você pode definir propriedades CSS que mudam gradualmente quando um evento, como um hover ou foco, ocorre. As transições são configuradas com a propriedade transition.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">.botao {
+    background-color: #3498db;
+    transition: background-color 0.3s ease; /* Altera a cor de fundo suavemente em 0,3 segundos */
+}
+
+.botao:hover {
+    background-color: #2980b9; /* Nova cor de fundo no hover */
+}
+</code></pre>
+<ul>
+<li>
+<p>Animações (@keyframes): As animações permitem criar sequências de movimentos ou mudanças de estilo em elementos. Você define as etapas da animação usando a regra @keyframes e, em seguida, aplica essa animação a um elemento usando a propriedade animation.</p>
+</li>
+<li>
+<p>Exemplo:</p>
+</li>
+</ul>
+<pre><code class="language-css">@keyframes balanco {
+    0% {
+        transform: rotate(0deg); /* Começa sem rotação */
+    }
+    50% {
+        transform: rotate(10deg); /* Rotação intermediária */
+    }
+    100% {
+        transform: rotate(-10deg); /* Rotação final */
+    }
+}
+
+.caixa {
+    animation: balanco 2s infinite; /* Aplica a animação de balanço de forma contínua */
+}
+</code></pre>
+<ul>
+<li>
+<p>Propriedades de Animação (animation): A propriedade animation é usada para aplicar animações a elementos e controlar sua duração, iteração e outros aspectos.</p>
+</li>
+<li>
+<p>Easing Functions: Você pode usar funções de "easing" para controlar como uma animação acelera ou desacelera ao longo do tempo. Alguns exemplos incluem ease, ease-in, ease-out e ease-in-out.</p>
+</li>
+<li>
+<p>Frameworks de Animação: Para animações mais complexas, você pode considerar o uso de frameworks de animação em CSS, como o Animate.css ou bibliotecas JavaScript como o GreenSock (GSAP).</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.pat", "navigation.sections", "navigation.expand"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
